@@ -51,6 +51,7 @@ gantt
     section Zemní práce
 
 ```
+
 ---
 - zemní a výkopové práce (zemní a terénní úpravy, výkopy základů a základových spár, přemístění stržené ornice a uložení či odvoz hlušiny)
 - budování základů domu (včetně hydroizolací a případné ochrany před zvýšeným radonovým rizikem a prostupů inženýrských sítí)
@@ -65,6 +66,7 @@ gantt
 - dokončovací práce (venkovní schodiště, chodníky, …)
 - kontrola kvality a odevzdání stavby
 - úprava terénu a realizace zahrady včetně oplocení včetně bran a branek (pokud nebylo oplocení realizováno již dříve)
+
 ---
 - Příprava pozemku (Duben 2025)
   - Týden 1-2: Vyčištění pozemku, odstranění vegetace a starých staveb
