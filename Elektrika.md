@@ -162,3 +162,38 @@ classDiagram
   }
 
 ```
+
+## Odhadovaná spotřeba domu (denní, kW)
+- Očekávaný příjem FVE v **letních měsících: 60 kW**.
+- Očekávaný příjem FVE v **jarních/podzimních měsících: 30 kW**.
+- Očekávaný příjem FVE v **zimních měsících: 15 kW**.
+```mermaid
+sankey-beta
+
+%% source,target,value
+"Nutna spotreba","Osvetleni",2
+"Nutna spotreba","Vareni",3
+"Nutna spotreba","COV",2
+"Nutna spotreba","Ohrev vody",3
+"Nutna spotreba","Rekuperace",2
+"Nutna spotreba","Smart home / internet / apod.",3
+"Nutna spotreba","Drobne spotrebice",2
+"Nutna spotreba","Kuchynske spotrebice",1
+"Nutna spotreba","Lednice",1.5
+"Nutna spotreba","Mycka",1
+"Nutna spotreba","TV",0.5
+"Nutna spotreba","Pracka + susicka",3
+"FVE","Dobiti baterioveho uloziste",8
+"Topeni","El. podl. topeni", 50
+"EV","Elektroauta", 50
+
+"Odhadovana spotreba","Nutna spotreba", 24
+"Odhadovana spotreba","FVE", 8
+"Odhadovana spotreba","EV", 50
+"Odhadovana spotreba","Topeni", 50
+```
+Z grafu je vidět, že 15 kWp od jara do podzimu bez problémů zvládá kompletní chod domácnosti s přebytkem i včetně nabíjení bateriového úložiště.
+
+Zbývá i něco málo pro dobíjení elektroaut (pokud někdy budou).
+
+Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod domácnosti by se z velké části dal vykrýt i v zimě.
