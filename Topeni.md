@@ -32,3 +32,7 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
 ## Rekuperace
 
 ## Krb / krbová vložka
+
+## Elektrické žebříky
+- Elektrické žebříky / přímotopy v koupelnách na ručníky 
+- sušák na boty v TM

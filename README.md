@@ -1,7 +1,7 @@
 # Smrčí RD - dřevostavba
 
 - [Požadavky](./Pozadavky.md)
-- [Harmonogram](./Timeline.md)
+- [Harmonogram](./Harmonogram.md)
 ---
 - [Elektroinstalce](./Elektrika.md)
 - [Podlaha](./Podlaha.md)

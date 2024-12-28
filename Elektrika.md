@@ -71,12 +71,14 @@ classDiagram
     Koupelna malá - zásuvka - nezálohováno
     Koupelna malá - světlo (zálohováno)
     Koupelna malá - odtah vlhkosti (zálohováno)
+    Koupelna malá - žebřík / sušák ručníků - nezálohováno
 
     Koupelna velká - zásuvka - nezálohováno
     Koupelna velká - světlo (zálohováno)
     Koupelna velká - odtah vlhkosti (zálohováno)
     Koupelna velká - sušička
     Koupelna velká - pračka
+    Koupelna velká - žebřík / sušák ručníků - nezálohováno
 
     Kuchyň - zásuvky (zálohováno)
     Kuchyň - varná deska 3f. (zálohováno)
@@ -89,14 +91,19 @@ classDiagram
     Obývák - zásuvky (zálohováno)
     
     Chodba - světla (zálohováno)
+    Chodba - zásuvka - nezálohováno
     
     Předsíň - světla (zálohováno)
+    Předsíň - zásuvka - nezálohováno
     
     TM - světlo (zálohováno)
     TM - zásuvky (zálohováno)
     TM - rack / internet / smarthome (zálohováno)
     TM - rekuperace (nezálohováno)?
     TM - Bojler - 2 patrony - FVE + ČEZ - dvoupólový jistič? (zálohováno)?
+    
+    Spižírna - světla (zálohováno)
+    Spižírna - zásuvky - nezálohováno
     
     WallBox 1 (zálohováno)?
     WallBox 2 (zálohováno)?
