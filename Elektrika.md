@@ -19,21 +19,21 @@
     - varná deska?
     - rekuperace?
     - ČOV?
-  - vypomáhá FVE s vykrytím špiček na fázi (asymetrie střídače)?
+  - vypomáhá baterie přes den FVE s vykrytím špiček na fázi (asymetrie střídače, nebo bude brát ze sítě, protože to střídač nedokáže obsloužit)?
   - může v budoucnu dodávat do sítě (není nutné, ani nevím zda žádané)
 - Světla
   - rozmyslet, zda se spínají pomocí relé v TM a vypínače jsou pouze tlačítka s UTP/FTP, nebo vypínače na stěně.
   - LEDky třeba na 24V? Nemusely by jít přes střídač z baterií.
-- Koupelny
-  - zásuvky nezálohováno, ale možná můžeme spojit se světlem a není třeba vlastní jistič/chránič? V tom případě můžeme zálohovat včetně světel (stejně tam v 95 % nic nebude zapojeného)
-- Pokoje dětí / ložnice
-  - Stejně jako v koupelně, zda nezálohovat zásuvky stejně jako světla? Max tam bude notebook/tablet/mobil a stolní lampička...
+- Rekuperace
+  - by měla být zálohována pro případ, že vypadne proud v zimě, tak může rozvádět teplo od kamen (jediný jiný zdroj tepla než elektrický)
 
 ## TZB:
 - kamerový systém (vlastní na Synology)
 - bezpečnostní systém (alarm, okna, má to vůbec smysl)?
 - protipožární systém?
-- moisture guarg ve stěnách?
+- moisture guard ve stěnách?
+
+## Zapojení rozvodů, návrh
 
 ```mermaid
 classDiagram
@@ -56,13 +56,13 @@ classDiagram
     ČOV (zálohované)
     Domovní vodárna pro splachování (zálohované)
     
-    Pokoj Tobi - zásuvky - nezálohováno
+    Pokoj Tobi - zásuvky - nezálohováno?
     Pokoj Tobi - světla (zálohováno)
     
-    Pokoj Niky - zásuvky - nezálohováno
+    Pokoj Niky - zásuvky - nezálohováno?
     Pokoj Niky - světla (zálohováno)
 
-    Ložnice - zásuvky - nezálohováno
+    Ložnice - zásuvky - nezálohováno?
     Ložnice - světla (zálohováno)
 
     Pracovna - zásuvky (zálohováno)
@@ -76,8 +76,8 @@ classDiagram
     Koupelna velká - zásuvka - nezálohováno
     Koupelna velká - světlo (zálohováno)
     Koupelna velká - odtah vlhkosti (zálohováno)
-    Koupelna velká - sušička
-    Koupelna velká - pračka
+    Koupelna velká - sušička - nezálohováno
+    Koupelna velká - pračka - nezálohováno
     Koupelna velká - žebřík / sušák ručníků - nezálohováno
 
     Kuchyň - zásuvky (zálohováno)
@@ -99,19 +99,19 @@ classDiagram
     TM - světlo (zálohováno)
     TM - zásuvky (zálohováno)
     TM - rack / internet / smarthome (zálohováno)
-    TM - rekuperace (nezálohováno)?
-    TM - Bojler - 2 patrony - FVE + ČEZ - dvoupólový jistič? (zálohováno)?
+    TM - rekuperace (zálohováno)
+    TM - Bojler - 2 patrony - FVE + ČEZ - dvoupólový jistič? - nezálohováno
     
     Spižírna - světla (zálohováno)
     Spižírna - zásuvky - nezálohováno
     
-    WallBox 1 (zálohováno)?
-    WallBox 2 (zálohováno)?
+    WallBox 1 (V2L/V2H - může dodávat do domu)
+    WallBox 2 (V2L/V2H - může dodávat do domu)
     
-    Venkovní osvětlení (nezálohováno)
+    Venkovní osvětlení - nezálohováno
     
     Terasa - osvětlení (zálohováno)?
-    Terasa - zásuvky
+    Terasa - zásuvky - nezálohováno
   }
   
   class ZemnicíPásek
@@ -131,6 +131,8 @@ classDiagram
       LAN připojení
       Připojení baterií
       Připojení FVE_modulů
+      Připojení k síti
+      Příprava na V2L/V2H
   }
 
   class Splitter {

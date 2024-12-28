@@ -9,6 +9,8 @@
 
 [Prehliadka moderného drevodomu Vela 115 (youtube.com)](https://www.youtube.com/watch?v=STB8tHPymWM&ab_channel=AtriumSK)
 
+[Vela 115 katalog individuálních úprav na atrium-sk](https://www.atrium-sk.sk/file/3203)
+
 ## Dřevostavba 150 m2 zastavěné plochy 6kk (9x16m)
 
 *   Dřevostavba 2by4, lehký skelet, **dif. otevřená**, **pasivní standard**
