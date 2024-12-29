@@ -110,8 +110,11 @@ classDiagram
     
     Venkovní osvětlení - nezálohováno
     
-    Terasa - osvětlení (zálohováno)?
-    Terasa - zásuvky - nezálohováno
+    Terasa - osvětlení (zálohováno)
+    Terasa - zásuvky (zálohováno)
+    
+    Exteriér - vánoční světýlka s časovačem v HR (nezálohováno) 
+    Exteriér - osvětlení kolem domu (zálohováno) 
   }
   
   class ZemnicíPásek
