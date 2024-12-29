@@ -1,0 +1,166 @@
+<svg version="1.1" style="font-family:Helvetica;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="615"
+     height="456">
+    <desc>Created with Highstock 4.2.5</desc>
+    <defs>
+        <clipPath id="highcharts-3">
+            <rect x="0" y="0" width="532" height="377"></rect>
+        </clipPath>
+        <linearGradient x1="0" y1="0" x2="0" y2="1" id="highcharts-12">
+            <stop offset="0" stop-color="#FFF" stop-opacity="1"></stop>
+            <stop offset="1" stop-color="#ACF" stop-opacity="1"></stop>
+        </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="615" height="456" fill="#FFFFFF" class=" highcharts-background"></rect>
+    <g class="highcharts-grid"></g>
+    <g class="highcharts-grid">
+        <path fill="none" d="M 73 402.5 L 605 402.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 308.5 L 605 308.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 214.5 L 605 214.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 119.5 L 605 119.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 24.5 L 605 24.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 355.5 L 605 355.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 261.5 L 605 261.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 166.5 L 605 166.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 73 72.5 L 605 72.5" stroke="#D8D8D8" stroke-width="1" opacity="1"></path>
+    </g>
+    <g class="highcharts-axis">
+        <path fill="none" d="M 116.5 402 L 116.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 161.5 402 L 161.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 205.5 402 L 205.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 249.5 402 L 249.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 294.5 402 L 294.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 338.5 402 L 338.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 382.5 402 L 382.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 427.5 402 L 427.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 471.5 402 L 471.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 515.5 402 L 515.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 560.5 402 L 560.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 605.5 402 L 605.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <path fill="none" d="M 72.5 402 L 72.5 412" stroke="#C0D0E0" stroke-width="1" opacity="1"></path>
+        <text x="339" text-anchor="middle" transform="translate(0,0)" class=" highcharts-xaxis-title"
+              style="color:#707070;fill:#707070;" y="439">
+            <tspan>Month</tspan>
+        </text>
+        <path fill="none" d="M 73 402.5 L 605 402.5" stroke="#C0D0E0" stroke-width="1"></path>
+    </g>
+    <g class="highcharts-axis">
+        <text x="23.246973037719727" text-anchor="middle"
+              transform="translate(0,0) rotate(270 23.246973037719727 213.5)" class=" highcharts-yaxis-title"
+              style="color:#707070;fill:#707070;" y="213.5">
+            <tspan>PV energy output [kWh]</tspan>
+        </text>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-tracker" transform="translate(73,25) scale(1 1)"
+           style="" clip-path="url(#highcharts-3)">
+            <rect x="12" y="282" width="22" height="96" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="56" y="219" width="22" height="159" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="100" y="124" width="22" height="254" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="145" y="51" width="22" height="327" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="189" y="29" width="22" height="349" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="233" y="29" width="22" height="349" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="278" y="28" width="22" height="350" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="322" y="49" width="22" height="329" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="366" y="92" width="22" height="286" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="411" y="177" width="22" height="201" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="455" y="289" width="22" height="89" fill="#21A8FF" rx="0" ry="0"></rect>
+            <rect x="499" y="306" width="22" height="72" fill="#21A8FF" rx="0" ry="0"></rect>
+        </g>
+        <g class="highcharts-markers highcharts-series-0" transform="translate(73,25) scale(1 1)" clip-path="none"></g>
+    </g>
+    <g class="highcharts-button" style="cursor:default;" stroke-linecap="round" transform="translate(587,0)">
+        <title>Save chart as PNG</title>
+        <rect x="0.5" y="0.5" width="18" height="18" fill="white" stroke="none" stroke-width="1" rx="2" ry="2"></rect>
+        <text x="0" style="color:black;fill:black;" y="12"></text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels">
+        <text x="95.16666666666667" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Jan
+        </text>
+        <text x="139.50000000000003" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Feb
+        </text>
+        <text x="183.83333333333334" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Mar
+        </text>
+        <text x="228.16666666666669" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Apr
+        </text>
+        <text x="272.49999999999994" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">May
+        </text>
+        <text x="316.8333333333333" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Jun
+        </text>
+        <text x="361.1666666666667" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Jul
+        </text>
+        <text x="405.5" style="color:#606060;cursor:default;font-size:11px;fill:#606060;" text-anchor="middle"
+              transform="translate(0,0)" y="421" opacity="1">Aug
+        </text>
+        <text x="449.83333333333337" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Sep
+        </text>
+        <text x="494.1666666666667" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Oct
+        </text>
+        <text x="538.5000000000001" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Nov
+        </text>
+        <text x="582.8333333333334" style="color:#606060;cursor:default;font-size:11px;fill:#606060;"
+              text-anchor="middle" transform="translate(0,0)" y="421" opacity="1">Dec
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels">
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="407" opacity="1">0
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="313" opacity="1">500
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="219" opacity="1">1000
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="124" opacity="1">1500
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="30" opacity="1">2000
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="360" opacity="1">250
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="266" opacity="1">750
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="171" opacity="1">1250
+        </text>
+        <text x="58" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:193px;text-overflow:clip;"
+              text-anchor="end" transform="translate(0,0)" y="77" opacity="1">1750
+        </text>
+    </g>
+    <g class="highcharts-tooltip" style="cursor:default;padding:0;pointer-events:none;white-space:nowrap;"
+       transform="translate(377,-9999)" opacity="0" visibility="visible">
+        <path fill="none"
+              d="M 3.5 0.5 L 142.5 0.5 C 145.5 0.5 145.5 0.5 145.5 3.5 L 145.5 42.5 C 145.5 45.5 145.5 45.5 142.5 45.5 L 78.5 45.5 72.5 51.5 66.5 45.5 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+              isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5"
+              transform="translate(1, 1)"></path>
+        <path fill="none"
+              d="M 3.5 0.5 L 142.5 0.5 C 145.5 0.5 145.5 0.5 145.5 3.5 L 145.5 42.5 C 145.5 45.5 145.5 45.5 142.5 45.5 L 78.5 45.5 72.5 51.5 66.5 45.5 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+              isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3"
+              transform="translate(1, 1)"></path>
+        <path fill="none"
+              d="M 3.5 0.5 L 142.5 0.5 C 145.5 0.5 145.5 0.5 145.5 3.5 L 145.5 42.5 C 145.5 45.5 145.5 45.5 142.5 45.5 L 78.5 45.5 72.5 51.5 66.5 45.5 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+              isShadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path>
+        <path fill="rgba(249, 249, 249, .85)"
+              d="M 3.5 0.5 L 142.5 0.5 C 145.5 0.5 145.5 0.5 145.5 3.5 L 145.5 42.5 C 145.5 45.5 145.5 45.5 142.5 45.5 L 78.5 45.5 72.5 51.5 66.5 45.5 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+              stroke="#21A8FF" stroke-width="1"></path>
+        <text x="8" style="font-size:12px;color:#333333;fill:#333333;" y="20">
+            <tspan>PV output</tspan>
+            <tspan x="8" dy="15">September:</tspan>
+            <tspan style="font-weight:bold" dx="0">1515.8</tspan>
+            <tspan dx="0">kWh</tspan>
+        </text>
+    </g>
+</svg>

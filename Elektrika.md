@@ -163,10 +163,17 @@ classDiagram
 
 ```
 
+## Odhadovaný výkon FVE
+- [Kalkulačka výkonu FVE](https://re.jrc.ec.europa.eu/pvg_tools/en/)
+- Očekávaný příjem FVE (denní) v **letních měsících: 60 kW**.
+- Očekávaný příjem FVE (denní) v **jarních/podzimních měsících: 30 kW**.
+- Očekávaný příjem FVE (denní) v **zimních měsících: 15 kW**.
+
+### Graf výroby FVE podle měsíců ve Smrčí při sklonu střechy 40° a otočení na jih.
+![Graf ](imgs\fve_15kwp.svg)
+
 ## Odhadovaná spotřeba domu (denní, kW)
-- Očekávaný příjem FVE v **letních měsících: 60 kW**.
-- Očekávaný příjem FVE v **jarních/podzimních měsících: 30 kW**.
-- Očekávaný příjem FVE v **zimních měsících: 15 kW**.
+
 ```mermaid
 sankey-beta
 
@@ -192,6 +199,7 @@ sankey-beta
 "Odhadovana spotreba","EV", 50
 "Odhadovana spotreba","Topeni", 50
 ```
+
 Z grafu je vidět, že 15 kWp od jara do podzimu bez problémů zvládá kompletní chod domácnosti s přebytkem i včetně nabíjení bateriového úložiště.
 
 Zbývá i něco málo pro dobíjení elektroaut (pokud někdy budou).
