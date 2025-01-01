@@ -40,16 +40,16 @@ classDiagram
   note "Schéma zapojení elektrických rozvodů"
   
   SvodPřepětí --> ZemnicíPásek
-  Hlavní_Rozvaděč --> SvodPřepětí
+  HlavníRozvaděč --> SvodPřepětí
   Splitter --> SvodPřepětí
   Splitter <-- PřívodČEZ
-  Splitter <-- FVE_Moduly
+  Splitter <-- FveModuly
   Splitter --> Střídač
-  Střídač --> Hlavní_Rozvaděč
-  Hlavní_Rozvaděč --> Podlahové_Topení_PR
-  Hlavní_Rozvaděč --> Bojler
+  Střídač --> HlavníRozvaděč
+  HlavníRozvaděč --> PodlahovéTopeníPR
+  HlavníRozvaděč --> Bojler
   
-  class Hlavní_Rozvaděč {
+  class HlavníRozvaděč["Hlavní rozvaděč"] {
     Hlavní 3f jistič
     Podlahové topení hlavní jistič
     
@@ -108,25 +108,26 @@ classDiagram
     WallBox 1 (V2L/V2H - může dodávat do domu)
     WallBox 2 (V2L/V2H - může dodávat do domu)
     
-    Venkovní osvětlení - nezálohováno
-    
     Terasa - osvětlení (zálohováno)
     Terasa - zásuvky (zálohováno)
     
+    Půda - osvětlení (zálohováno)
+    Půda - zásuvky (zálohováno)
+    
     Exteriér - vánoční světýlka s časovačem v HR (nezálohováno) 
-    Exteriér - osvětlení kolem domu (zálohováno) 
+    Exteriér - osvětlení kolem domu (zálohováno)
   }
   
-  class ZemnicíPásek
+  class ZemnicíPásek["Zemnící pásek"]
 
-  class PřívodČEZ {
-      samosttaně napájená kůlna
+  class PřívodČEZ["Přívod ČEZ"] {
+      samostatně napájená kůlna
       tam už napojení na FVE asi nedává smysl
   }
 
-  class SvodPřepětí
+  class SvodPřepětí["Svod přepětí"]
 
-  class FVE_Moduly {
+  class FveModuly["FVE moduly"] {
       Odhadem kolem 30-35 panelů 500 Wp
   }
   
@@ -138,8 +139,8 @@ classDiagram
       Příprava na V2L/V2H
   }
 
+  note for Splitter "By měl zajišťovat možnost odpojit libovolný možný zdroj." 
   class Splitter {
-  %% By měl zajišťovat možnost odpojit libovolný možný zdroj.
     Bypass/odpojení zdroje FVE/ČEZ
     Odpojení modulů na střeše
     Odpojení baterií
@@ -152,7 +153,7 @@ classDiagram
     FVE patrona
   }
 
-  class Podlahové_Topení_PR {
+  class PodlahovéTopeníPR["Podlahové topení\npodružný rozvaděč"] {
     Koupelna velká
     Koupelna malá
     Dětský pokoj Niky

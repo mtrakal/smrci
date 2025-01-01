@@ -7,7 +7,7 @@ Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 
 
 ## Požadavky voda:
 - Vodovod zaveden do TM
-- V TM je bojler (asi Dražice OKCE 300 S), nahříván ze sítě a FVE, o kapacitě alespoň 300l se dvěmi patronami
+- V TM je bojler (asi [Dražice OKCE 300 S](https://www.dzd.cz/ohrivace-a-zasobniky-teple-vody/elektricke/stacionarni/okce-s)), nahříván ze sítě a FVE, o kapacitě alespoň 300l se dvěmi patronami
 - Z TM je rozvod studené vody do:
   - koupeny malé (umyvadlo, sprchový kout)
   - koupelny velké (umyvadla, vana, pračka)
