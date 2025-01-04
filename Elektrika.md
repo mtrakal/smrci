@@ -32,6 +32,7 @@
 - bezpečnostní systém (alarm, okna, má to vůbec smysl)?
 - protipožární systém?
 - moisture guard ve stěnách?
+- [SmartHome](./SmartHome.md)
 
 ## Zapojení rozvodů, návrh
 
