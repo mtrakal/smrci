@@ -32,7 +32,7 @@
     ideálně kolem 30 panelů (15 kWp) do budoucna ideálně na celé střeše z obou stran – akumulace do baterie > bojler > EV (až jednou bude :D).
 *   topení pomocí **krbových kamínek** obývák – pocitové teplo (nebude rozvod do ostatních místností)
 *   zbytek místností **podlahové elektrické topení** (rohože nebo kabely?) nebo **infrapanely**, využití rekuperace k „topení“ a chlazení – je to možné?
-*   **Rekuperace** centrální v technické místnosti (Atrea, Jablotron, Zehnder)? Dle vlastností
+*   **Rekuperace** centrální v technické místnosti (Atrea, [~~Jablotron~~ (nebrat)](https://www.modrastrecha.cz/forum/topeni-vetrani-klimatizace/jablotron-coolbreeze-zkusenosti-doporuceni/?page=2), Zehnder)? Dle vlastností
 *   napojení na **ČOV** na pozemku (Bazénplast EKO SBR BIO je v projektu, nelze změnit). Schválené stavební povolení.
 *   nádrž na dešťovou vodu na pozemku vedle ČOV (splachování, zálivka), 4 kubíky
 *   ke splachování se ideálně využívá dešťová voda  
