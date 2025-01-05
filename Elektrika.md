@@ -210,3 +210,16 @@ Z grafu je vidět, že 15 kWp od jara do podzimu bez problémů zvládá komplet
 Zbývá i něco málo pro dobíjení elektroaut (pokud někdy budou).
 
 Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod domácnosti by se z velké části dal vykrýt i v zimě.
+
+## Komponenty
+
+- Rozvaděč
+  - Silnoproud [cubico-ip40-1800x600x400mm](https://www.schrack.cz/eshop/skrine-pro-rozvadece-a-rozvodnice/skrine-pro-rozvadece-cubico-ip40/skrine-pro-rozvadece-cubico-ip40/skrin-cubico-ip40-1800x600x400mm-1k-ec186040.html) - info z [Vodnici.net](https://www.vodnici.net/community/loxone-a-arduino/jak-zacit-v-novostavbe/#post-40512) jen mi bude stačit tak poloviční než tam má
+  - Eth rozvaděč 600mm 12U +- [Triton 12u/600](https://www.bscom.cz/triton-19-rozvadec-jednodilny-12u-600mm-odnim-bocni-kryty-rua-12-as6-cax-a1_d857948/#gallery)
+- Relé / časovače
+  - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo)
+- Loxone
+  - Miniserver 2
+  - Relé extension
+  - Modbus (rekuperace nejspíš)
+  - Napájecí modul 24V 1.3A (měl by stačit pro Miniserver + relé + modbus)
