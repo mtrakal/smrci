@@ -223,3 +223,8 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
   - Relé extension
   - Modbus (rekuperace nejspíš)
   - Napájecí modul 24V 1.3A (měl by stačit pro Miniserver + relé + modbus)
+
+## Software
+
+- [SchrackDesign](https://www.schrack.cz/schrack-digital/schrack-design) - návrhy elektrorozvaděčů
+- [SchrackDesign katalogy produktů](https://www.schrack.cz/eshop/katalogy/katalogy.html?catId=5267282)
