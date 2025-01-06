@@ -17,6 +17,8 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
 - CO2 senzor? Má smysl, když rekuperace jede vlastně nonstop?
 - dle predikce výroby FVE nahřívat bojler, baterie, EV
 
+Spot umí řídit i pro Solax a další střídače nař. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus)
+
 ## Hezké
 
 - osvětlení se k večeru mění intenzita (ikea žárovky, Home Assistant nebo ikea režimy) - není nutné mít relátka
