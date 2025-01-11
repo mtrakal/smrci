@@ -54,7 +54,7 @@ classDiagram
     Hlavní 3f jistič
     Podlahové topení hlavní jistič
     
-    ČOV (zálohované)
+    ČOV dmychadlo (zálohované)
     Domovní vodárna pro splachování (zálohované)
     
     Pokoj Tobi - zásuvky - nezálohováno?
@@ -102,6 +102,7 @@ classDiagram
     TM - rack / internet / smarthome (zálohováno)
     TM - rekuperace (zálohováno)
     TM - Bojler - 2 patrony - FVE + ČEZ - dvoupólový jistič? - nezálohováno
+    TM - Sušák na boty - nezálohováno
     
     Spižírna - světla (zálohováno)
     Spižírna - zásuvky - nezálohováno
@@ -215,7 +216,7 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
 
 - Rozvaděč
   - Silnoproud [cubico-ip40-1800x600x400mm](https://www.schrack.cz/eshop/skrine-pro-rozvadece-a-rozvodnice/skrine-pro-rozvadece-cubico-ip40/skrine-pro-rozvadece-cubico-ip40/skrin-cubico-ip40-1800x600x400mm-1k-ec186040.html) - info z [Vodnici.net](https://www.vodnici.net/community/loxone-a-arduino/jak-zacit-v-novostavbe/#post-40512) jen mi bude stačit tak poloviční než tam má
-  - Eth rozvaděč 600mm 12U +- [Triton 12u/600](https://www.bscom.cz/triton-19-rozvadec-jednodilny-12u-600mm-odnim-bocni-kryty-rua-12-as6-cax-a1_d857948/#gallery)
+  - Eth rozvaděč 600mm 12U +- [Triton 12u/600](https://www.bscom.cz/triton-19-rozvadec-jednodilny-12u-600mm-odnim-bocni-kryty-rua-12-as6-cax-a1_d857948/#gallery), možná spíš [Triton 22u-800x1000](https://www.discomp.cz/triton-19-stojanovy-rozvadec-22u-800x1000_d128192.html)
 - Relé / časovače
   - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo)
 - Loxone
