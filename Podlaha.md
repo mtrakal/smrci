@@ -2,7 +2,7 @@
 
 Preferovaný je u mne suchý systém výstavby (rychlost, nezatěžuje tolik spodní konstrukci, hned pochozí).
 
-- farmacell, ale **lze použít v kombinaci s elektrickým podlahovým výtápěním**?
+Dle projektanta i suchá v bungalovu nemá problém s hlukem, tedy potvrzeno jako preferovaná varianta.
 
 ## Suchá skladba podlahy
 ### Výhody:

@@ -56,14 +56,15 @@ classDiagram
     
     ČOV dmychadlo (zálohované)
     Domovní vodárna pro splachování (zálohované)
+    Hlídání stavu vody v retenční nádrži
     
-    Pokoj Tobi - zásuvky - nezálohováno?
+    Pokoj Tobi - zásuvky (zálohováno)
     Pokoj Tobi - světla (zálohováno)
     
-    Pokoj Niky - zásuvky - nezálohováno?
+    Pokoj Niky - zásuvky (zálohováno)
     Pokoj Niky - světla (zálohováno)
 
-    Ložnice - zásuvky - nezálohováno?
+    Ložnice - zásuvky (zálohováno)
     Ložnice - světla (zálohováno)
 
     Pracovna - zásuvky (zálohováno)

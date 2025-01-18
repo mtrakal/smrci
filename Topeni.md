@@ -2,9 +2,13 @@
 
 V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické vytápění, krb a rekuperaci.
 
-## Podlahové / stropní elektrické
+## Podlahové
+
+- Elektrické rohože těsně pod nášlapnou vrstvou.
 
 #### Krytina:
+
+[Detail k podlaze](./Podlaha.md)
 
 - vybírejte podlahovou krytinu s tepelným odporem menším než 0,15 m2.K/W.
 - Ideální krytinou je pro podlahové topení dlažba, má totiž vysokou míru tepelné vodivosti a bude tedy dobře předávat
@@ -33,6 +37,13 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
 
 ## Rekuperace
 
+Rekuperační jednotka od Atrea zvolena jako nejlepší možná volba s přihlédnutím na:
+
+- pořizovací cenu
+- pravidelné náklady (filtry)
+- možnost sehnat někoho na servis / údržbu
+- poměr cena/výkon/hlučnost
+
 ### Požadavky
 
 - Klapky na jednotlivé místnosti (možnost uzavřít pracovnu + obývák a nechat profukovat pouze ložnice v noci)
@@ -59,12 +70,13 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
 - [čtení dat z XML](https://forum.tzb-info.cz/133605-atrea-data-logging-monitoring-cez-webserver)
 - [Ofiko Loxone modul](https://library.loxone.com/detail/atrea-rd5-1295/overview)
 
-## Krbová kamna kachlovás
+## Krbová kamna (kachlová)
 
 - nezapomenout na nezávislý přívod vzduchu!!!
-- Nejspíš [Hass+Sohn Treviso Mini](https://www.haassohn-rukov.cz/produkty/krbova-kamna/04343-kachlova-kamna-treviso-mini) / [Loreto](https://www.haassohn-rukov.cz/produkty/archiv/krbova-kamna/03314-1-kachlova-kamna-loreto) / [Laguno](https://www.haassohn-rukov.cz/produkty/archiv/krbova-kamna/03314-kachlova-kamna-lugano)
 
-Něco jako 
+Nejspíš [Hass+Sohn Treviso Mini](https://www.haassohn-rukov.cz/produkty/krbova-kamna/04343-kachlova-kamna-treviso-mini) / [Loreto](https://www.haassohn-rukov.cz/produkty/archiv/krbova-kamna/03314-1-kachlova-kamna-loreto) / [Laguno](https://www.haassohn-rukov.cz/produkty/archiv/krbova-kamna/03314-kachlova-kamna-lugano)
+
+Něco jako
 [![](https://www.van2o.lt/cache/images_product_S_1_1000x500/treviso%20ii%20-%20papildoma.jpg)](https://www.van2o.lt/krosneles-zidiniai/kieto-kuro-krosneles/plienine-krosnele-haas-sohn-treviso-ii-8-kw.html?keyword=pl)
 
 ## Elektrické žebříky

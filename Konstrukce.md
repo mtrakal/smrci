@@ -2,6 +2,8 @@
 
 ## Založení stavby
 
+Založení stavby nakonec bude na základovou desku.
+
 ### Prostupy v základech
 
 - Odpad z TM (kondenzát, porucha vodovodu, nouzové vypouštění bojleru)
@@ -17,78 +19,77 @@
 - dešťová voda elektrika k nádrži > senzor hladiny vody
 - odvětrávání radonu
 
-## Skladba stěny
+## Konstrukce
 
-## Střecha
+### Skladba stěny
 
-- Plechová klik falcový systém (Ruukki)
-- preferuji tradiční okapnicový systém (než okap na plechu - možnost zatékání / hromadění sněhu a bordelu)
-- musí unést soláry!
-- se zatepleným půdním prostorem (pokud se tam bude skladovat sportovní vybavení nechci aby se v létě zkroutilo a v zimě
-  zmrzlo)
+- tenkovrstvá difuzně otevřená omítka
+- dřevovláknitá izoalce (asi 160 mm?)
+- dřevovláknitá deska?
+- KVH 200mm × (40mm nebo 60mm?) + dřevovláknitá desková izolace (2× 100mm?)
+- OSB 18mm PD? deska jako parobrzda / farmacell vapor?
+- předstěna KVH 60mm? + izolace?
+- Farmacell záklop (někde dvojitý / možno sádrovlákno + sádrokarton)
 
-### Vazníky vs krov
+### Zaklopení stěn / příček
 
-- Krov z 2b4 systému, např 4x24 nebo 6x24,
-- [I nosníky](https://cdnassets.hw.net/f5/a7/5054db73470792860ddb0a58a65e/kruseotj-1-tcm96-2181185.jpg), větší prostor
-  pro izolaci, než u 2b4, nezmenšuje tak moc prostor oproti krovu z vazníků,
-- [Krov z vazníků](https://img.ceskestavby.cz/cache/643x750-1/i.ceskyinternet.cz/clanky/odstavce/23387-555698-2_600-shutterstock_21738007.jpg) -
-  obří prostor pro mezikrokevní izolaci, zmenšuje hodně půdní prostor,
-- +mezikrokevní izolace nebo nadkrokevní dřevovláknité desky?
+- dvojitý záklop sádrokatronem / sádrovláknem (farmacell / rigidur)
+- co [hlinené desky](https://www.prirodnistavba.cz/hlineny-panel-deska-tl-16-mm-13670.html) - měly by lépe regulovat
+  vlhkost a akumulovat teplo (chceme to ale vůbec? v létě by se mohlo více přehřívat?)
 
-![I nosníkový krv](https://cdnassets.hw.net/f5/a7/5054db73470792860ddb0a58a65e/kruseotj-1-tcm96-2181185.jpg)
+### Příčky
 
-![Vazníkový krov](https://img.ceskestavby.cz/cache/643x750-1/i.ceskyinternet.cz/clanky/odstavce/23387-555698-2_600-shutterstock_21738007.jpg)
+- běžně KVH 10mm (někde může být zvýšeno - nosné příčky, jinde sníženo když není potřeba protihluková stěna)
+- dřevovláknitá deska jako výplň
+- záklop farmacell, případně dvojitý záklop (možno farmacell + sádrokarton)
 
-### Prostupy střechou
+### [Podlaha](./Podlaha.md)
 
-- komín od krbových kamen
-- odvětrání radonu
-- odvětrání kanalizace (stačí společný, nebo per místnost?)
-- FVE kabeláž
+- Viz samostatná [stránka k podlaze](./Podlaha.md)
+
+### Strop ?
+
+- stejně jako stěny konstrukce?
+- KVH + izolace dřevovláknem, nebo minerální čedičovou vatou?
 
 ## Zateplení
 
 Difuzně otevřená skladba a od toho se odvíjející zateplení
 
-### Podlaha
+- Dřevovláknité desky (i do příček) i na záklop konstrukce
+- Případně minerální čedičová vata
 
-- ?
+## Střecha
 
-### Stěny - konstrukce
+### Krov
 
-- foukané dřevovlákno - nejlépe vyplní, váha, nutný stroj na zafoukání
-- konopná vata - hoří, ale lépe rozvádí vlhkost do celého objemu
-- minerální čedičová vata - nehoří, lokální místa vlhkosti
+- Střešní konstrukce - tradiční krov (asi z KVH např 4x24 nebo 6x24)
+- buď s hřebenovou nebo středovými vaznicemi + kleštiny a vazný trám
 
-### Stěny - venkovní izolace
+[I nosníky](https://www.pasivnidomy.cz/detaily/sikma-strecha-z-i-nosniku-v-miste-hrebene-vrcholova-vaznice-pod-konstrukci-strechy-29) jsme zavrhli z důvodu nevyužítí tloušťky pro zateplení (min. dvojnásobná plocha zateplování oproti zateplení stropu)
 
-- dřevovlákníté desky?
+Stejně tak vazníkovou střechu (čekání na výrobu, doprava na místo, máme možnost "vlastních tesařů") a chceme úložný prostor.
 
-### Strop
+### Prostupy střechou
 
-- stejně jako stěny konstrukce
+- komín od krbových kamen
+- odvětrání radonu
+- společné odvětrání kanalizace (spojení koupelen + kuchyně v půdním prostoru?)
+- FVE kabeláž
+- Střešní okno bych vůbec žádné nedělal. Maximálně udělat na falcy žebřík?
 
-### Střecha
+### Povrch střechy
 
-- Asi dle krokví / vazníků / mezikrokevní izolace?
-- Má smysl zateplovat nadkrokevně, když bude zateplená "jen" půda + strop bude mít vlastní izolací?
-
-### Předstěna
-
-- ? Má vůbec cenu přidávat zde izolaci a vyhýbat se elektrice, vodě apod?
+- Plechová klik falcový systém (Ruukki) / Falcovaná (Prefa)
+- preferuji tradiční okapnicový systém (než okap na plechu - možnost zatékání / hromadění sněhu a bordelu)
+- musí unést soláry!
+- ~~se zatepleným půdním prostorem (pokud se tam bude skladovat sportovní vybavení nechci aby se v létě zkroutilo a v zimě
+  zmrzlo)~~ Zateplený bude strop, případně příprava aby bylo možné v budoucnu zateplit i krov.
 
 ## Fasáda
 
 - [tenkovrstvé omítka?](https://baumit.cz/produkty/fasadni-omitky-a-barvy/fasadni-omitky/baumit-opentop)
 - [silikonová omítka?](https://knauf.com/cs-CZ/knauf-insulation/reseni/oblasti-aplikace/drevostavby/difuzne-otevrena-obvodova-stena-drevostavby)
-
-## Zaklopení stěn / příček
-
-- dvojitý záklop sádrokatronem / sádrovláknem (farmacell / rigidur)
-- dvojitý záklop není nutný všude, vysmyelt kde (hlučnost, pevnost)
-- co [hlinené desky](https://www.prirodnistavba.cz/hlineny-panel-deska-tl-16-mm-13670.html) - měly by lépe regulovat
-  vlhkost a akumulovat teplo (chceme to ale vůbec? v létě by se mohlo více přehřívat?)
 
 ## Okna
 
@@ -97,9 +98,9 @@ Difuzně otevřená skladba a od toho se odvíjející zateplení
   6011 (reseda green)</span>
 
 
+- Po konzultaci s projektantem se nebude dělat předsazená montáž (200mm rám je dostačující a nebude tepelný most). 
+Detaily provdení při instalaci do rámu jsou mnohem jednodušší a méně pracné.
 - asi [Oknotherm](https://www.oknotherm.cz/plastova-okna)
   viz [realizace Svébohy](https://www.oknotherm.cz/inspirace/plast/rodinny-dum-svebohy)
 
 [![](https://www.oknotherm.cz/images/inspirace/plast/rodinny-dum-svebohy/xl/06.jpg?91707556)](https://www.oknotherm.cz/inspirace/plast/rodinny-dum-svebohy)
-
-## [Podlahy](./Podlaha.md)
