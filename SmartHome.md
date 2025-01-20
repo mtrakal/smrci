@@ -16,6 +16,7 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
 - hlídání hladiny v akumulační nádrži (notifikace abychom dopustili z kohoutku na splachování)
 - CO2 senzor? Má smysl, když rekuperace jede vlastně nonstop?
 - dle predikce výroby FVE nahřívat bojler, baterie, EV
+- MoistureGuard (nebo obdoba) - měření vlhkosti konstrukce
 
 Spot umí řídit i pro Solax a další střídače nař. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus)
 
