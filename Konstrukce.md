@@ -17,6 +17,7 @@ Založení stavby nakonec bude na základovou desku.
 - Odpad z koupelny (wc, umyvadlo, vana, sušička a pračka)
 - Elektřina ČEZ
 - Elektřina k ČOV (dmychadlo)
+- nasávání vzduchu ke krbovým kamnům
 - optika kůlna
 - optika přípojka domu
 - vodovod
@@ -24,7 +25,7 @@ Založení stavby nakonec bude na základovou desku.
 - dešťová voda (vodovod)
 - dešťová voda elektrika k nádrži (datová i silová - možnost čerpadla a kontroly hladiny)
 - odvětrávání radonu
-- kopoflex k parkovacím stáním (případná kamera, osvětlení, wallbox) 
+- kopoflex k parkovacím stáním (případná kamera, osvětlení, wallbox)
 
 ## Konstrukce
 
