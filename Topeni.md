@@ -66,6 +66,7 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
   mít někdo stejný problém jako já, použijte chrome
 - [čtení dat z XML](https://forum.tzb-info.cz/133605-atrea-data-logging-monitoring-cez-webserver)
 - [Ofiko Loxone modul](https://library.loxone.com/detail/atrea-rd5-1295/overview)
+- [Home Assistant integrace](https://github.com/JurajNyiri/HomeAssistant-Atrea)
 
 
 ### Finální výběr
