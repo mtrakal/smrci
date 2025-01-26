@@ -37,12 +37,9 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
 
 ## Rekuperace
 
-Rekuperační jednotka od Atrea zvolena jako nejlepší možná volba s přihlédnutím na:
+[Předpokládaný návrh zapojení rekuperace. (Figma projekt)](https://www.figma.com/design/HXPyJgDuI7QUvlEugycx2D/Vzduchotchnika?node-id=0-1&t=dSRtvnLBsCDfXFPA-1)
 
-- pořizovací cenu
-- pravidelné náklady (filtry)
-- možnost sehnat někoho na servis / údržbu
-- poměr cena/výkon/hlučnost
+![](./imgs/vzduchotechnika.png "Vzduchotechnika")
 
 ### Požadavky
 
@@ -69,6 +66,20 @@ Rekuperační jednotka od Atrea zvolena jako nejlepší možná volba s přihlé
   mít někdo stejný problém jako já, použijte chrome
 - [čtení dat z XML](https://forum.tzb-info.cz/133605-atrea-data-logging-monitoring-cez-webserver)
 - [Ofiko Loxone modul](https://library.loxone.com/detail/atrea-rd5-1295/overview)
+
+
+### Finální výběr
+
+#### Jednotka
+
+Rekuperační jednotka od Atrea zvolena jako nejlepší možná volba s přihlédnutím na:
+
+- pořizovací cenu
+- pravidelné náklady (filtry)
+- možnost sehnat někoho na servis / údržbu
+- poměr cena/výkon/hlučnost
+
+#### Rozvody
 
 ## Krbová kamna (kachlová)
 

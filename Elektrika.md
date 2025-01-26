@@ -23,6 +23,7 @@
   - může v budoucnu dodávat do sítě (není nutné, ani nevím zda žádané)
 - Světla
   - rozmyslet, zda se spínají pomocí relé v TM a vypínače jsou pouze tlačítka s UTP/FTP, nebo vypínače na stěně.
+  - světla tahat ideálně CYKY 5x1.5mm pro možnost dvou okruhů v jednom místě?
   - LEDky třeba na 24V? Nemusely by jít přes střídač z baterií.
 - Rekuperace
   - by měla být zálohována pro případ, že vypadne proud v zimě, tak může rozvádět teplo od kamen (jediný jiný zdroj tepla než elektrický)

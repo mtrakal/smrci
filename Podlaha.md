@@ -4,6 +4,13 @@ Preferovaný je u mne suchý systém výstavby (rychlost, nezatěžuje tolik spo
 
 Dle projektanta i suchá v bungalovu nemá problém s hlukem, tedy potvrzeno jako preferovaná varianta.
 
+---
+
+## Finální povrchy 
+- Na části bude určitě dlažba (kuchyně, koupelny, chodby, TM).
+- Obytné místnosti s velkým otazníkem zatím :). Dlažba by mohla i v létě pocitově "chladit", 
+ale zas jaro/podzim by se už muselo zbytečně topit jen pro pocitové teplo... Asi tedy lepší zvolit něco jiného...
+
 ## Suchá skladba podlahy
 ### Výhody:
 - Rychlost instalace: Suché podlahy lze instalovat rychleji, protože nevyžadují čas na schnutí.

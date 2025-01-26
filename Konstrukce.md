@@ -1,5 +1,10 @@
 # Konstrukce
 
+## Drenáž
+
+Pozemek je na jaře podmáčený od západní strany - od pole a domu č. 64.
+Bude nutné udělat drenáž a odtok do svaku / odtoku.
+
 ## Založení stavby
 
 Založení stavby nakonec bude na základovou desku.
@@ -15,9 +20,11 @@ Založení stavby nakonec bude na základovou desku.
 - optika kůlna
 - optika přípojka domu
 - vodovod
+- vodovod elektřina - pro případnou montáž odpojení přítoku při nehodě (eVodník)
 - dešťová voda (vodovod)
-- dešťová voda elektrika k nádrži > senzor hladiny vody
+- dešťová voda elektrika k nádrži (datová i silová - možnost čerpadla a kontroly hladiny)
 - odvětrávání radonu
+- kopoflex k parkovacím stáním (případná kamera, osvětlení, wallbox) 
 
 ## Konstrukce
 
