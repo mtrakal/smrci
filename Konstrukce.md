@@ -84,6 +84,7 @@ Stejně tak vazníkovou střechu (čekání na výrobu, doprava na místo, máme
 - odvětrání radonu
 - společné odvětrání kanalizace (spojení koupelen + kuchyně v půdním prostoru?)
 - FVE kabeláž
+- Rekuperace odtah? Půjde vyřešit nějak lépe?
 - Střešní okno bych vůbec žádné nedělal. Maximálně udělat na falcy žebřík?
 
 ### Povrch střechy

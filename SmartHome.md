@@ -17,7 +17,7 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
 - hlídání hladiny v akumulační nádrži (notifikace abychom dopustili z kohoutku na splachování)
 - CO2 senzor? Má smysl, když rekuperace jede vlastně nonstop?
 - dle predikce výroby FVE nahřívat bojler, baterie, EV
-
+- hlísiče požáru (počítám, že musí být už dneska běžně) - [AQARA Smoke Detector (SD-S01D)](https://oleje-pema.cz/zbozi/aqara-smoke-detector-sd-s01d-zigbee-3-0-kourovy-senzor_773495?srsltid=AfmBOorhxFq5qiRyybxDnX2qB8aJBxmoy74xMB4spCe94HRBJHkdtUwz) jde napojit do HA/Zigbee, 10 let baterie
 Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus).
 
 ## Hezké
@@ -30,4 +30,23 @@ Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGree
 
 - co zvládne sám Home Assistant
 - co všechno na něj půjde napojit
-- bude potřeba Loxone a k čemu a kolik extension modulů (raději )
+- bude potřeba Loxone a k čemu a kolik extension modulů
+
+## Dostupné varianty
+
+- Home Assistant (řeší pouze SW stránku)
+  - ale má [ESPHome](https://esphome.io/) pro integraci pomocí ESP32 mikrokontrollerů snad na cokoliv
+  - [SmLight SLZB-06](https://smlight.tech/manual/slzb-06/) zigbee / mqtt brána (LAN + wifi)
+  - Ikea Smart home + ZHA / Home Assistant
+    - [Senzor úniku vody](https://www.ikea.com/cz/cs/p/-60504352)
+    - [Pohybový senzor](https://www.ikea.com/cz/cs/p/-90504341)
+    - [Senzor okenní / dveřní](https://www.ikea.com/cz/cs/p/-80504308)
+    - [Senzor kvality vzduchu](https://www.ikea.com/cz/cs/p/-80515910) + [ESP32 od Lásky](https://www.laskakit.cz/laskakit-esp-vindriktning-esp-32-i2c/#relatedFiles) + [CO2 senzor](https://www.laskakit.cz/laskakit-scd41-senzor-co2--teploty-a-vlhkosti-vzduchu/)
+  - Tuya 
+    - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) funguje ale potřebuje Token z Tuya aplikace
+    - [Tuya Zigbee WiFi Temperature And Humidity Sensor](https://www.aliexpress.com/item/1005006534648116.html?spm=a2g0o.order_list.order_list_main.12.59981802Qs7SI1) funguje krásně přes SLZB-06 bránu
+  - Lidl Livarno (je rebrandovaná Tuya)
+    - Světla i ovladač funguje přes Tuya app, nejspíš půjde napojit i napřímo, protože jede na Zigbee (nezkoušel jsem zatím)
+  - 
+- Loxone - drahý jak prase, ale obecně funkční, uzavřený systém
+- Siemens LOGO Home (výrazně levnější varianta Loxonu - původně z průmyslu, 24V systém, PLCčka)

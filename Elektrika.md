@@ -29,6 +29,7 @@
   - by měla být zálohována pro případ, že vypadne proud v zimě, tak může rozvádět teplo od kamen (jediný jiný zdroj tepla než elektrický)
 
 ## TZB:
+
 - kamerový systém (vlastní na Synology)
 - bezpečnostní systém (alarm, okna, má to vůbec smysl)?
 - protipožární systém?
@@ -84,8 +85,9 @@ classDiagram
     Koupelna velká - žebřík / sušák ručníků - nezálohováno
 
     Kuchyň - zásuvky (zálohováno)
-    Kuchyň - varná deska 3f. (zálohováno)
+    Kuchyň - varná deska 3f. - zálohováno?
     Kuchyň - lednice (zálohováno)
+    Kuchyň - trouba
     Kuchyň - světla (zálohováno)
     Kuchyň - digestoř - zálohováno?
     Kuchyň - myčka nádobí - nezálohováno
@@ -172,43 +174,45 @@ classDiagram
 ```
 
 ## Odhadovaný výkon FVE
+
 - [Kalkulačka výkonu FVE](https://re.jrc.ec.europa.eu/pvg_tools/en/)
-- Očekávaný příjem FVE (denní) v **letních měsících: 60 kW**.
-- Očekávaný příjem FVE (denní) v **jarních/podzimních měsících: 30 kW**.
-- Očekávaný příjem FVE (denní) v **zimních měsících: 15 kW**.
+- Očekávaný příjem FVE (měsíční) v **letních měsících: 1800 kW**.
+- Očekávaný příjem FVE (měsíční) v **jarních/podzimních měsících: 900 kW**.
+- Očekávaný příjem FVE (měsíční) v **zimních měsících: 450 kW**.
 
 ### Graf výroby FVE podle měsíců ve Smrčí při sklonu střechy 40° a otočení na jih.
+
 ![Graf ](imgs\fve_15kwp.svg)
 
-## Odhadovaná spotřeba domu (denní, kW)
+## Odhadovaná spotřeba domu (měsíční, kWh)
 
 ```mermaid
 sankey-beta
 
 %% source,target,value
-"Nutna spotreba","Osvetleni",2
-"Nutna spotreba","Vareni",3
-"Nutna spotreba","COV",2
-"Nutna spotreba","Ohrev vody",3
-"Nutna spotreba","Rekuperace",2
-"Nutna spotreba","Smart home / internet / apod.",3
-"Nutna spotreba","Drobne spotrebice",2
-"Nutna spotreba","Kuchynske spotrebice",1
-"Nutna spotreba","Lednice",1.5
-"Nutna spotreba","Mycka",1
-"Nutna spotreba","TV",0.5
-"Nutna spotreba","Pracka + susicka",3
-"FVE","Dobiti baterioveho uloziste",8
-"Topeni","El. podl. topeni", 50
-"EV","Elektroauta", 50
+"Nutna spotreba","Osvetleni",60
+"Nutna spotreba","Vareni",90
+"Nutna spotreba","COV",60
+"Nutna spotreba","Ohrev vody",90
+"Nutna spotreba","Rekuperace",60
+"Nutna spotreba","Smart home / internet / apod.",90
+"Nutna spotreba","Drobne spotrebice",60
+"Nutna spotreba","Kuchynske spotrebice",30
+"Nutna spotreba","Lednice",45
+"Nutna spotreba","Mycka",30
+"Nutna spotreba","TV",15
+"Nutna spotreba","Pracka + susicka",90
+"FVE","Dobiti baterioveho uloziste",240
+"Topeni","El. podl. topeni", 1500
+"EV","Elektroauta", 1500
 
-"Odhadovana spotreba","Nutna spotreba", 24
-"Odhadovana spotreba","FVE", 8
-"Odhadovana spotreba","EV", 50
-"Odhadovana spotreba","Topeni", 50
+"Odhadovana spotreba","Nutna spotreba", 720
+"Odhadovana spotreba","FVE", 240
+"Odhadovana spotreba","EV", 1500
+"Odhadovana spotreba","Topeni", 1500
 ```
 
-Z grafu je vidět, že 15 kWp od jara do podzimu bez problémů zvládá kompletní chod domácnosti s přebytkem i včetně nabíjení bateriového úložiště.
+Z grafu je vidět, že 15 kWp (450 až 1800kWh) od jara do podzimu bez problémů zvládá kompletní chod domácnosti s přebytkem i včetně nabíjení bateriového úložiště (únor až říjen).
 
 Zbývá i něco málo pro dobíjení elektroaut (pokud někdy budou).
 
@@ -218,14 +222,10 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
 
 - Rozvaděč
   - Silnoproud [cubico-ip40-1800x600x400mm](https://www.schrack.cz/eshop/skrine-pro-rozvadece-a-rozvodnice/skrine-pro-rozvadece-cubico-ip40/skrine-pro-rozvadece-cubico-ip40/skrin-cubico-ip40-1800x600x400mm-1k-ec186040.html) - info z [Vodnici.net](https://www.vodnici.net/community/loxone-a-arduino/jak-zacit-v-novostavbe/#post-40512) jen mi bude stačit tak poloviční než tam má
-  - Eth rozvaděč 600mm 12U +- [Triton 12u/600](https://www.bscom.cz/triton-19-rozvadec-jednodilny-12u-600mm-odnim-bocni-kryty-rua-12-as6-cax-a1_d857948/#gallery), možná spíš [Triton 22u-800x1000](https://www.discomp.cz/triton-19-stojanovy-rozvadec-22u-800x1000_d128192.html)
+  - Síťový rozvaděč/rack [Triton 19" 18U/500mm](https://www.bscom.cz/triton-19-rozvadec-jednodilny-18u-500mm-odnimatelne-bocni-kryty-rua-18-as5-cax-a1_d352200/) - 600š×500h×900v
 - Relé / časovače
   - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo)
-- Loxone
-  - Miniserver 2
-  - Relé extension
-  - Modbus (rekuperace nejspíš)
-  - Napájecí modul 24V 1.3A (měl by stačit pro Miniserver + relé + modbus)
+- [SmartHome](./SmartHome.md)
 
 ## Software
 

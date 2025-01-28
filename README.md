@@ -18,10 +18,10 @@
 ## Detaily
 
 - [Konstrukce](./Konstrukce.md)
-- [Elektroinstalce](./Elektrika.md)
+- [Elektroinstalce / FVE](./Elektrika.md)
 - [Smart Home](./SmartHome.md)
 - [Podlaha](./Podlaha.md)
-- [Topení](./Topeni.md)
+- [Topení, rekuperace / větrání / krb](./Topeni.md)
 - [Vodoinstalce / kanalizace](./Voda.md)
 
 ---

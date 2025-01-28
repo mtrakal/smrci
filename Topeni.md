@@ -39,6 +39,8 @@ V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické v
 
 [Předpokládaný návrh zapojení rekuperace. (Figma projekt)](https://www.figma.com/design/HXPyJgDuI7QUvlEugycx2D/Vzduchotchnika?node-id=0-1&t=dSRtvnLBsCDfXFPA-1)
 
+Je potřeba počítat, že odtah rekuperace bude muset být na střechu nebo veden podhledem někam ke kuchyni aby splnil odstup přívodu/výfuku od sebe.
+
 ![](./imgs/vzduchotechnika.png "Vzduchotechnika")
 
 ### Požadavky
