@@ -25,6 +25,7 @@ Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGree
 - osvětlení se k večeru mění intenzita (ikea žárovky, Home Assistant nebo ikea režimy) - není nutné mít relátka
 - osvětlení kolem domu se zapne se setměním a vypne např. v 11
 - vánoční osvětlení se zapne v prosinci a skoncí koncem ledna? (To už jsou fakt kraviny na Home assistanta / loxone)
+- [meteostanice](https://homeassistant-cz.cz/viewtopic.php?t=1349&start=50) Sencor SWS12500 / SWS 16600 WiFi SH
 
 ## Nutno vyřešit
 
