@@ -173,7 +173,33 @@ classDiagram
 
 ```
 
-## Odhadovaný výkon FVE
+## FVE
+
+Střecha bude pokrytá FV moduly z
+
+- východní strany (+- 17 modulů od jihu po komín od krbu),
+- západní strany (+- 18 modulů od jihu po komínky s větráním/odtahem kanalizace),
+- jižní strany (+- 8 panelů) na rizalitu
+
+Celkem tedy něco kolem 44 ks modulů.
+
+Vychází mi maximální rozměr modulu +- 2100×1200 aby se vešli ve 3 řadách na střechu.
+
+Celkový výkon takové FVE je mezi 18-25 kWp, ale reálně bude pod polovinou (osvit pouze z východu nebo západu).
+
+### Požadavky na FVE
+
+- Moduly nad 500 Wp ([DAH Solar 550Wp](https://www.i4wifi.cz/cs/300859-dah-solar-dhm-t72x10-fs-bw-550w-cerny-ram-63v-1-3-cut-bezramove-provedeni) - pokud se vejde na střechu!, [Elerix 525Wp](https://www.i4wifi.cz/cs/300816-elerix-esm-525t-paleta-36-ks))
+- Každý by měl mít regulátor/optimizér (nebo alespoň ty na kritických místech, kter mohou být stíněny - břeben strechy, komíny, sousední dům)
+- Half/triple cut cell panely!
+- Střídač alespoň 15 kW, asi `Solax X3-Hybrid G4`?
+- Střídač má asymetrii (ideálně co největší pro zabránění přetoků do sítě a využití solárů při záteži jedné fáze)
+- Vyřešit křížení s hromosvodem!
+- Příprava na možnost rozšířit FVE o zbytek západní/východní strany střechy.
+- Ideálně 3 stringy u střídače (jih/východ/západ)? Dává to smysl, nebo budou stačit 2 + optimizéry?
+- Příprava na bateriové úložiště kolem 10kW v TM (nebo sklepě, pokud bude?)
+
+### Odhadovaný výkon FVE
 
 - [Kalkulačka výkonu FVE](https://re.jrc.ec.europa.eu/pvg_tools/en/)
 - Očekávaný příjem FVE (měsíční) v **letních měsících: 1800 kW**.
@@ -183,6 +209,8 @@ classDiagram
 ### Graf výroby FVE podle měsíců ve Smrčí při sklonu střechy 40° a otočení na jih.
 
 ![Graf ](imgs\fve_15kwp.svg)
+
+###
 
 ## Odhadovaná spotřeba domu (měsíční, kWh)
 

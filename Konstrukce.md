@@ -59,6 +59,7 @@ Založení stavby nakonec bude na základovou desku.
 
 - stejně jako stěny konstrukce?
 - KVH + izolace dřevovláknem, nebo minerální čedičovou vatou?
+- zaklopení stropu (podhledy) sádrokatronem
 
 ## Zateplení
 
