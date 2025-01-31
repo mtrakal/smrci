@@ -17,8 +17,8 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
 - hlídání hladiny v akumulační nádrži (notifikace abychom dopustili z kohoutku na splachování)
 - CO2 senzor? Má smysl, když rekuperace jede vlastně nonstop?
 - dle predikce výroby FVE nahřívat bojler, baterie, EV
-- hlísiče požáru (počítám, že musí být už dneska běžně) - [AQARA Smoke Detector (SD-S01D)](https://oleje-pema.cz/zbozi/aqara-smoke-detector-sd-s01d-zigbee-3-0-kourovy-senzor_773495?srsltid=AfmBOorhxFq5qiRyybxDnX2qB8aJBxmoy74xMB4spCe94HRBJHkdtUwz) jde napojit do HA/Zigbee, 10 let baterie
-Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus).
+- hlásiče požáru (počítám, že musí být už dneska běžně) - [AQARA Smoke Detector (SD-S01D)](https://oleje-pema.cz/zbozi/aqara-smoke-detector-sd-s01d-zigbee-3-0-kourovy-senzor_773495?srsltid=AfmBOorhxFq5qiRyybxDnX2qB8aJBxmoy74xMB4spCe94HRBJHkdtUwz) jde napojit do HA/Zigbee, 10 let baterie
+- Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus).
 
 ## Hezké
 
