@@ -8,8 +8,25 @@ Dle projektanta i suchá v bungalovu nemá problém s hlukem, tedy potvrzeno jak
 
 ## Finální povrchy 
 - Na části bude určitě dlažba (kuchyně, koupelny, chodby, TM).
-- Obytné místnosti s velkým otazníkem zatím :). Dlažba by mohla i v létě pocitově "chladit", 
-ale zas jaro/podzim by se už muselo zbytečně topit jen pro pocitové teplo... Asi tedy lepší zvolit něco jiného...
+- Obytné místnosti dřevěná podlahová prkna lepená 2 nebo 3 vrstvá, ne-masivní kvůli el. podlahovému topení viz [info od Přírodní bydlení](https://www.youtube.com/watch?v=EhdAkRdRv24)
+
+### Obytné místnosti, obývák
+
+[![](https://www.empiri.cz/www/upload/cef4a91f/2022072110491838/2022072110491838.750x750.webp)](https://www.empiri.cz/dub-grand-rustikal-country)
+
+[![](https://www.empiri.cz/www/upload/8c10644d/2023101211093088/2023101211093088.750x750.jpg)](https://www.empiri.cz/dub-traditional-xxl-260-mm)
+
+[![](https://www.ceskapodlaha.cz/www/upload/products/images/20200609044023451.jpg)](https://www.ceskapodlaha.cz/dub-country-selske-prkno-gent)
+
+### Kuchyně, vchodová chodba?
+
+[![](https://cdn.myshoptet.com/usr/www.retrokoupelna.cz/user/shop/big/17828-2_her013-137417478676027.jpg?67577787)](https://www.retrokoupelna.cz/heritage-black-33-15x33-15--bal-1-32m2---her013/)
+
+[![](https://cdn.myshoptet.com/usr/www.retrokoupelna.cz/user/shop/big/77137-3_1581064049-cs-olympia-grey-20x20-alta-jpg.jpg)](https://www.retrokoupelna.cz/retro-dlazba-el-barco-acropolis-olympia-grey-20x20/)
+
+[![](https://cdn.myshoptet.com/usr/www.retrokoupelna.cz/user/shop/big/63331-1_1606485582-cs-i383-tea-20x20-pannello-astro-oc.jpg?6757775a)](https://www.retrokoupelna.cz/retro-dlazba-marca-corona-terra-art-astro-0-c-20x20/)
+
+[![](https://cdn.myshoptet.com/usr/www.retrokoupelna.cz/user/shop/big/63565-3_1686924970-cs-capri-6.jpg)](https://www.retrokoupelna.cz/retro-dlazba-xclusive-islands-capri-20-5x20-5/)
 
 ## Suchá skladba podlahy
 ### Výhody:

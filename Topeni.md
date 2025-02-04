@@ -117,7 +117,7 @@ Rekuperační jednotka od [Atrea Ra5](https://atrea.eu/cs/vyrobky/duplex-r5/) zv
 #### Rozvody
 
 - [Kulaté 90mm](https://www.termikoneshop.cz/90mm-system-potrubi/) (ploché [Zehnder 51mm](https://www.termikoneshop.cz/ploche-potrubi/) jsou zbytečně drahé, blbě se budou čistit)
-- koncovky Luna S125 (přívod) / Luna E125 (odvod)
+- koncovky Zehnder ComfoValve Luna S125 (přívod) / Luna E125 (odvod) nebo jiné kvalitní co nebudou "ofukovat" pod výustkem
 
 ## Krbová kamna (kachlová)
 
