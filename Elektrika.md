@@ -32,7 +32,7 @@
 
 - kamerový systém (vlastní na Synology)
 - bezpečnostní systém (alarm, okna, má to vůbec smysl)?
-- protipožární systém?
+- protipožární systém? [Aliexpress bundle Zigbee](https://www.aliexpress.com/item/1005007907100604.html?spm=oneshop.home.fastdelivery.2.701f7f6bY3M8ns&skuId=12000042795362283&pdp_ext_f=%7B%22sku_id%22%3A%2212000042795362283%22%7D&aecmd=true) a asi o dost lepší [AQARA Smoke Detector (SD-S01D)](https://www.alza.cz/aqara-smoke-detector-sd-s01d-zigbee-3-0-d12689506.htm)
 - moisture guard ve stěnách?
 - [SmartHome](./SmartHome.md)
 
