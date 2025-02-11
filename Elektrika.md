@@ -210,8 +210,6 @@ Celkový výkon takové FVE je mezi 18-25 kWp, ale reálně bude pod polovinou (
 
 ![Graf ](imgs\fve_15kwp.svg)
 
-###
-
 ## Odhadovaná spotřeba domu (měsíční, kWh)
 
 ```mermaid
