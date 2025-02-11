@@ -192,7 +192,11 @@ Celkový výkon takové FVE je mezi 18-25 kWp, ale reálně bude pod polovinou (
 - Moduly nad 500 Wp ([DAH Solar 550Wp](https://www.i4wifi.cz/cs/300859-dah-solar-dhm-t72x10-fs-bw-550w-cerny-ram-63v-1-3-cut-bezramove-provedeni) - pokud se vejde na střechu!, [Elerix 525Wp](https://www.i4wifi.cz/cs/300816-elerix-esm-525t-paleta-36-ks))
 - Každý by měl mít regulátor/optimizér (nebo alespoň ty na kritických místech, kter mohou být stíněny - břeben strechy, komíny, sousední dům)
 - Half/triple cut cell panely!
-- Střídač alespoň 15 kW, asi `Solax X3-Hybrid G4`?
+- Střídač alespoň 15 kW
+  - [Solax X3-Hybrid G4](https://www.solaxpower.com/products/x3-hybrid-g4/) - prý hodně odchází / reklamace
+  - [Deye SUN-15K-G05](https://deye.com/cs/product/sun-15k-g05/)
+  - [Deye SUN-18K-G05](https://deye.com/cs/product/sun-18-20-22-23-25k-g05/)
+  - [Huawei SUN5000-17](https://solar.huawei.com/cz/professionals/all-products/SUN5000-Series/SUN5000-17-25K-MB0-specs)
 - Střídač má asymetrii (ideálně co největší pro zabránění přetoků do sítě a využití solárů při záteži jedné fáze)
 - Vyřešit křížení s hromosvodem!
 - Příprava na možnost rozšířit FVE o zbytek západní/východní strany střechy.
