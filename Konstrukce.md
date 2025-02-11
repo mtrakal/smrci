@@ -9,6 +9,12 @@ Bude nutné udělat drenáž a odtok do svaku / odtoku.
 
 Založení stavby nakonec bude na základovou desku.
 
+### Podsklepení
+
+Východní část domu (pod rizalitem) bude podklepená, 5×6 m (30m<sup>2</sup>).
+
+Rozdělena na 2 části. Jedna část pro uskladnění potravin apod, druhá "nářaďovna" a dodatečné technické zázemí domu (dodatečné baterie k FVE, domovní vodárna, apod).
+
 ### Prostupy v základech
 
 - Odpad z TM (kondenzát, porucha vodovodu, nouzové vypouštění bojleru)
@@ -18,14 +24,17 @@ Založení stavby nakonec bude na základovou desku.
 - Elektřina ČEZ
 - Elektřina k ČOV (dmychadlo)
 - nasávání vzduchu ke krbovým kamnům
-- optika kůlna
-- optika přípojka domu
+- optika kůlna (může jít přes sklep)
+- optika přípojka domu (může jít přes sklep)
 - vodovod
 - vodovod elektřina - pro případnou montáž odpojení přítoku při nehodě (eVodník)
 - dešťová voda (vodovod)
 - dešťová voda elektrika k nádrži (datová i silová - možnost čerpadla a kontroly hladiny)
 - odvětrávání radonu
 - kopoflex k parkovacím stáním (případná kamera, osvětlení, wallbox)
+- Prostupka mezi sklepem a TM pro kabeláž k bateriím
+- Prostupka mezi sklepem a TM pro 230V/380V a datové kabely / optiku pro případné přesunutí "serverovny" do sklepa
+- Prostupka pro vodu (dešťovou) - můžeme do sklepa umístit čerpadlo a expazní nádobu místo do TM pro splachování. Nemuseli bychom tahat z domu prostupku pro závlahu - šla by rovnou ze sklepa!
 
 ## Konstrukce
 
@@ -34,9 +43,9 @@ Založení stavby nakonec bude na základovou desku.
 - tenkovrstvá difuzně otevřená omítka
 - dřevovláknitá izoalce (asi 160 mm?)
 - dřevovláknitá deska?
-- KVH 200mm × (40mm nebo 60mm?) + dřevovláknitá desková izolace (2× 100mm?)
+- KVH 200mm × 60mm + dřevovláknitá desková izolace (2× 100mm?)
 - OSB 18mm PD? deska jako parobrzda / farmacell vapor?
-- předstěna KVH 60mm? + izolace?
+- předstěna KVH 60mm + izolace
 - Farmacell záklop (někde dvojitý / možno sádrovlákno + sádrokarton)
 
 ### Zaklopení stěn / příček

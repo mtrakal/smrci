@@ -26,6 +26,15 @@
 
 ---
 
+## Projektová dokumentace
+
+### Dokumentace pro stavební povolení (ohlášení) stavby (DSP)
+
+- [Půdorys](./projekt/dsp/D1_03_1NP_NAVRH_250205.pdf)
+- [Skladby](./projekt/dsp/DSP_RD_Smrci_D1.1.3_01_skladby_konstrukci.docx)
+
+---
+
 ## Vybavení
 
 - [Vybavení místností](./Vybaveni.md)
