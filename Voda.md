@@ -7,7 +7,8 @@ Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 
 
 ## Požadavky voda:
 - Vodovod zaveden do TM
-- V TM je bojler (asi [Dražice OKCE 300 S](https://www.dzd.cz/ohrivace-a-zasobniky-teple-vody/elektricke/stacionarni/okce-s)), nahříván ze sítě a FVE, o kapacitě alespoň 300l se dvěmi patronami
+  - ideálně do vodoměrné šachty udělat elektronické odpojování při úniku vody? Nebude to ale s celou vodomědnou šachtou náhodou pod vodou? :D
+- V TM je bojler (asi [Dražice OKCE 500 S](https://www.dzd.cz/ohrivace-a-zasobniky-teple-vody/elektricke/stacionarni/okce-s)), nahříván ze sítě a FVE, o kapacitě alespoň 300l se dvěmi patronami
 - Z TM je rozvod studené vody do:
   - koupeny malé (umyvadlo, sprchový kout, bidetová sprška)
   - koupelny velké (umyvadla, vana, pračka)
@@ -15,26 +16,32 @@ Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 
   - na terasu (doplnění vody do akumulační nádrže pro WC v případě dlouhého sucha)
 - Z TM je rozvod teplé vody z Bojleru do:
   - koupelny malé (umyvadlo, sprchový kout)
-  - koupelny velké (umavadla, vana, pračka - dělají se vůbec ještě?)
+  - koupelny velké (umavadlo, vana)
   - koupelna velká a kuchyně má [recirkulační obvod](https://chytrydumsvepomoci.cz/blog/cirkulace-teple-vody) aby byla neustále dostupná teplá voda 
   - kuchyně (myčka, dřez)
-- Z TM je rozvod užitkové (dešťové) vody do:
+- Z TM/sklepu je rozvod užitkové (dešťové) vody do:
   - koupelny malé (WC)
   - koupelny velké (WC)
   - na terasu (zálivka / mytí auta)? Nebude lepší natáhnout rovnou z akumulační nádrže?
 
 ## Požadavky odpad:
-- odpad má odvětrání na střechu (společný se spojením v půdním prostoru?)
-- samostatné odvětrávání ČOV, je to potřeba, nebo projde odvětráváním v baráku?
+- odpad má odvětrání na střechu (společný se spojením v půdním prostoru? - co nejméně prostupek střechou)
+- samostatné odvětrávání ČOV, je to potřeba, nebo projde společným odvětráváním v baráku nad střechu?
 - odpad je z:
   - Koupelna malá
     - sprchový kout
     - umyvadlo
+    - WC
   - Koupelna velká
     - vana
-    - umyvadla
+    - umyvadlo
     - pračka
     - sušička
+    - WC
   - Kuchyň
     - dřez
     - myčka
+  - TM
+    - kondenzát z rekuperace
+    - nouzové vypuštění bojleru
+    - odtok na podlaze pro případ havárie? Aby nevyplavilo všechnu elektroniku, nebude smrdět zbytečně, počítám, že sifon by vyschnul brzo?
