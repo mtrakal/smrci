@@ -2,7 +2,7 @@
 
 - [Požadavky](./Pozadavky.md)
 - [Harmonogram](./Harmonogram.md)
-- [Rozpočet a výdaje](https://docs.google.com/spreadsheets/d/14k_Pigk7DkyO7SruC685IL01KDg58WHeB2bn7G4IXBY/edit?usp=sharing)
+- [Rozpočet a výdaje](https://docs.google.com/spreadsheets/d/14k_Pigk7DkyO7SruC685IL01KDg58WHeB2bn7G4IXBY/edit?usp=sharing) (neveřejné)
 
 ---
 
