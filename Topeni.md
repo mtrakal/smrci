@@ -1,6 +1,6 @@
 # Vytápění
 
-V RD budeme mít 3 potenciální zdroje tepla. Podlahové/stropní elektrické vytápění, krb a rekuperaci.
+V RD budeme mít 3 potenciální zdroje tepla. Podlahové elektrické vytápění, krb a rekuperaci.
 
 ## Podlahové
 
