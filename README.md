@@ -23,6 +23,7 @@
 - [Podlaha](./Podlaha.md)
 - [Topení, rekuperace / větrání / krb](./Topeni.md)
 - [Vodoinstalce / kanalizace](./Voda.md)
+- [Koupelny](./Koupelny.md)
 
 ---
 

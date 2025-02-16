@@ -6,11 +6,22 @@ Dle projektanta i suchá v bungalovu nemá problém s hlukem, tedy potvrzeno jak
 
 ---
 
-## Finální povrchy 
-- Na části bude určitě dlažba (kuchyně, koupelny, chodby, TM).
-- Obytné místnosti dřevěná podlahová prkna lepená 2 nebo 3 vrstvá, ne-masivní kvůli el. podlahovému topení viz [info od Přírodní bydlení](https://www.youtube.com/watch?v=EhdAkRdRv24)
+## Finální povrchy
 
-### Obytné místnosti, obývák
+- **Dlažba**
+  - Koupelny
+  - Vstupní chodba
+  - TM
+  - Spíž
+  - Obývák - prostor kolem krbu
+- **Dřevěná podlahová prkna** lepená 2 nebo 3 vrstvá, ne-masivní kvůli el. podlahovému topení viz [info od Přírodní bydlení](https://www.youtube.com/watch?v=EhdAkRdRv24)
+  - Obývák + kuchyně
+  - Chodba
+  - Ložnice
+  - Pracovna
+  - Dětstké pokoje
+
+### Dřěvená podlaha dekory
 
 [![](https://www.empiri.cz/www/upload/cef4a91f/2022072110491838/2022072110491838.750x750.webp)](https://www.empiri.cz/dub-grand-rustikal-country)
 
@@ -18,7 +29,13 @@ Dle projektanta i suchá v bungalovu nemá problém s hlukem, tedy potvrzeno jak
 
 [![](https://www.ceskapodlaha.cz/www/upload/products/images/20200609044023451.jpg)](https://www.ceskapodlaha.cz/dub-country-selske-prkno-gent)
 
-### Kuchyně, vchodová chodba?
+### Dlažba dekory (v procesu)
+
+TM a spíž bude nějaká obyčejná dlažba v základní asi bílé, není potřeba dekor, když to jsou zavřené prostory.
+
+Vstupní chodba bude nějakým jednolitým, nerušivým dekorem, případně jen světlou barvou.
+
+Koupelny budou každá v jiném dekoru (dle preferencí hlavních uživateků koupelny). Bude řešeno v samostatné stránce [Koupelny](./Koupelny.md)
 
 [![](https://cdn.myshoptet.com/usr/www.retrokoupelna.cz/user/shop/big/17828-2_her013-137417478676027.jpg?67577787)](https://www.retrokoupelna.cz/heritage-black-33-15x33-15--bal-1-32m2---her013/)
 
