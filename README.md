@@ -49,3 +49,4 @@
 - [FVE](https://oze.tzb-info.cz/fotovoltaika)
 - [Energodomy - katalog vybavení domu](https://www.enerdomy.cz/graupe_v7/im/media/44/Katalog-Enerdomy-Vybaveni-domu.pdf)
 - [Rekuperace zajímavá diskuze](https://www.modrastrecha.cz/forum/topeni-vetrani-klimatizace/jablotron-coolbreeze-zkusenosti-doporuceni/?page=2)
+- Výpočet FVE [jak na to video](https://www.youtube.com/watch?v=bsq-GfRT5jg&ab_channel=Tyg%C5%99inacest%C4%9B-JanM%C3%BCller) a opensolar

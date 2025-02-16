@@ -210,6 +210,10 @@ Celkový výkon takové FVE je mezi 18-25 kWp, ale reálně bude pod polovinou (
 - Očekávaný příjem FVE (měsíční) v **jarních/podzimních měsících: 900 kW**.
 - Očekávaný příjem FVE (měsíční) v **zimních měsících: 450 kW**.
 
+### OpenSolar
+
+- [první nástřel FVE a výkonu / spotřeby](./fve/2025-02-17_opensolar.pdf)
+
 ### Graf výroby FVE podle měsíců ve Smrčí při sklonu střechy 40° a otočení na jih.
 
 ![Graf ](imgs\fve_15kwp.svg)
