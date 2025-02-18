@@ -27,7 +27,8 @@
 ### Vybavení
 
 - WC (závěsné) na dešťovku
-- Sprchový kout (dořešit zda vaničku, kanálek?)
+- WC sprška (rozhodnout zda použít dešťovku nebo pitnou)
+- Sprchový kout (dořešit zda vaničku, kanálek?), sprchový kout má zavírací dveře, není walk-in (kvůli průvanu/úniku tepla ze sprchy)
 - Umyvadlo
 - Skříňka pod umyvadlem
 - Zásuvka poblíž umyvadla / wc
