@@ -46,9 +46,10 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
     - [Senzor kvality vzduchu](https://www.ikea.com/cz/cs/p/-80515910) + [ESP32 od Lásky](https://www.laskakit.cz/laskakit-esp-vindriktning-esp-32-i2c/#relatedFiles) + [CO2 senzor](https://www.laskakit.cz/laskakit-scd41-senzor-co2--teploty-a-vlhkosti-vzduchu/)
   - Tuya 
     - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) funguje ale potřebuje Token z Tuya aplikace
-    - [Tuya Zigbee WiFi Temperature And Humidity Sensor](https://www.aliexpress.com/item/1005006534648116.html?spm=a2g0o.order_list.order_list_main.12.59981802Qs7SI1) funguje krásně přes SLZB-06 bránu
+    - [Tuya Zigbee WiFi Temperature And Humidity Sensor](https://www.aliexpress.com/item/1005006534648116.html) funguje krásně přes SLZB-06 bránu
+    - [Tuya senzor na okna/dveře - zigbee](https://www.aliexpress.com/item/1005008154245742.html)
   - Lidl Livarno (je rebrandovaná Tuya)
     - Světla i ovladač funguje přes Tuya app, nejspíš půjde napojit i napřímo, protože jede na Zigbee (nezkoušel jsem zatím)
   - [Dingtian relé deska s DI](https://www.dingtian-tech.com/en_us/index.html) - až 32 vstupů a relé výstupů, má podporu pro HA, Loxone, ... [na aliexpressu](https://dtwonder.aliexpress.com/store/1228401)
-- Loxone - drahý jak prase, ale obecně funkční, uzavřený systém
+- Loxone - drahý jak prase, ale obecně funkční, uzavřený systém, velká komunita na [Vodnici.net](https://www.vodnici.net/community/main-category/)
 - Siemens LOGO Home (výrazně levnější varianta Loxonu - původně z průmyslu, 24V systém, PLCčka)
