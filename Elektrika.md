@@ -9,6 +9,7 @@
   - dobíjet baterie (jde i ze sítě - dle spotu a výhodnosti - Loxone?)
   - dobíjet EV (jde i ze sítě - dle spotu a výhodnosti - Loxone?)
   - provozovat většinu domácnosti (primárně všechno asi krom podlahového vytápění)
+  - optimalizuje kam posílá přebytky co se aktuálně nespotřebovávají (chod domácnosti > baterie > bojler > EV) např pomocí [WATTrouteru](./SmartHome.md)
 - Bateriový systém + EV powerbanka (V2L a V2H)
   - napájí chod domácnosti (omezený rozsah)
     - světla
@@ -56,9 +57,9 @@ classDiagram
     Hlavní 3f jistič
     Podlahové topení hlavní jistič
     
-    ČOV dmychadlo (zálohované)
-    Domovní vodárna pro splachování (zálohované)
-    Hlídání stavu vody v retenční nádrži
+    Sklep - ČOV dmychadlo (zálohované)
+    Sklep - Domovní vodárna pro splachování (zálohované)
+    Sklep - Hlídání stavu vody v retenční nádrži (12V pro relé i pro ventil)
     
     Pokoj Tobi - zásuvky (zálohováno)
     Pokoj Tobi - světla (zálohováno)
@@ -85,11 +86,11 @@ classDiagram
     Koupelna velká - žebřík / sušák ručníků - nezálohováno
 
     Kuchyň - zásuvky (zálohováno)
-    Kuchyň - varná deska 3f. - zálohováno?
+    Kuchyň - indukční varná deska 3f. (zálohováno)
     Kuchyň - lednice (zálohováno)
-    Kuchyň - trouba
+    Kuchyň - trouba - nezálohováno
     Kuchyň - světla (zálohováno)
-    Kuchyň - digestoř - zálohováno?
+    Kuchyň - digestoř (zálohováno)
     Kuchyň - myčka nádobí - nezálohováno
     
     Obývák - světla (zálohováno)
@@ -103,7 +104,7 @@ classDiagram
     
     TM - světlo (zálohováno)
     TM - zásuvky (zálohováno)
-    TM - rack / internet / smarthome (zálohováno)
+    TM - rack / internet / smarthome (zálohováno + UPS)
     TM - rekuperace (zálohováno)
     TM - Bojler - 2 patrony - FVE + ČEZ - dvoupólový jistič? - nezálohováno
     TM - Sušák na boty - nezálohováno
@@ -159,7 +160,7 @@ classDiagram
     FVE patrona
   }
 
-  class PodlahovéTopeníPR["Podlahové topení\npodružný rozvaděč"] {
+  class PodlahovéTopeníPR["Podlahové topení podružný rozvaděč"] {
     Koupelna velká
     Koupelna malá
     Dětský pokoj Niky
@@ -183,25 +184,25 @@ Střecha bude pokrytá FV moduly z
 
 Celkem tedy něco kolem 44 ks modulů.
 
-Vychází mi maximální rozměr modulu +- 2100×1200 aby se vešli ve 3 řadách na střechu.
+Vychází mi maximální rozměr modulu +- 2100×1200 aby se vešly ve 3 řadách na střechu a ve 2 na rizalit.
 
-Celkový výkon takové FVE je mezi 18-25 kWp, ale reálně bude pod polovinou (osvit pouze z východu nebo západu).
+Celkový výkon FVE je mezi 15-25 kWp, ale reálně bude pod polovinou (osvit pouze z východu nebo západu).
 
 ### Požadavky na FVE
 
-- Moduly nad 500 Wp ([DAH Solar 550Wp](https://www.i4wifi.cz/cs/300859-dah-solar-dhm-t72x10-fs-bw-550w-cerny-ram-63v-1-3-cut-bezramove-provedeni) - pokud se vejde na střechu!, [Elerix 525Wp](https://www.i4wifi.cz/cs/300816-elerix-esm-525t-paleta-36-ks))
-- Každý by měl mít regulátor/optimizér (nebo alespoň ty na kritických místech, kter mohou být stíněny - břeben strechy, komíny, sousední dům)
+- Moduly kolem 500 Wp ([DAH Solar 550Wp](https://www.i4wifi.cz/cs/300859-dah-solar-dhm-t72x10-fs-bw-550w-cerny-ram-63v-1-3-cut-bezramove-provedeni) - pokud se vejde na střechu!, [Elerix 525Wp](https://www.i4wifi.cz/cs/300816-elerix-esm-525t-paleta-36-ks))
+- Každý by měl mít regulátor/optimizér (nebo alespoň ty na kritických místech, které mohou být stíněny - hřeben strěchy, komíny, sousední dům), nebo použít half-cut se 3 diodami bez optimizérů 🤷‍♂️?
 - Half/triple cut cell panely!
-- Střídač alespoň 15 kW
+- Střídač alespoň 15 kW (ideálně 20)
   - [Solax X3-Hybrid G4](https://www.solaxpower.com/products/x3-hybrid-g4/) - prý hodně odchází / reklamace
   - [Deye SUN-15K-G05](https://deye.com/cs/product/sun-15k-g05/)
   - [Deye SUN-18K-G05](https://deye.com/cs/product/sun-18-20-22-23-25k-g05/)
   - [Huawei SUN5000-17](https://solar.huawei.com/cz/professionals/all-products/SUN5000-Series/SUN5000-17-25K-MB0-specs)
 - Střídač má asymetrii (ideálně co největší pro zabránění přetoků do sítě a využití solárů při záteži jedné fáze)
 - Vyřešit křížení s hromosvodem!
-- Příprava na možnost rozšířit FVE o zbytek západní/východní strany střechy.
+- Příprava na možnost rozšířit FVE o zbytek západní/východní strany střechy o další moduly.
 - Ideálně 3 stringy u střídače (jih/východ/západ)? Dává to smysl, nebo budou stačit 2 + optimizéry?
-- Příprava na bateriové úložiště kolem 10kW v TM (nebo sklepě, pokud bude?)
+- Příprava na bateriové úložiště min. 10kW v TM nebo sklepě.
 
 ### Odhadovaný výkon FVE
 
@@ -260,6 +261,7 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
 - Relé / časovače
   - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo)
 - [SmartHome](./SmartHome.md)
+- [Automatický přepínač FVE / síť](https://youtu.be/9nkCFEfZQQY?si=8TEsvNPnJWuOEkck&t=940) ale říká, že mu to trvá 50ms (výpadek routerů apod)
 
 ## Software
 

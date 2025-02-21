@@ -14,15 +14,16 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
 - dle předpovědi počasí / termostatů se spíná podlahovka (a v závislosti na krbu/rekuperaci)
 - vnitřní a venkovní teplota
 - vlhkost
-- hlídání hladiny v akumulační nádrži (notifikace abychom dopustili z kohoutku na splachování)
+- hlídání hladiny v akumulační nádrži (ovládání ventilu, aby se dopustila z kohoutku na splachování). Vyřešit pomocí [hlídače hladiny 12V](https://www.laskakit.cz/xh-m203-hlidac-hladiny-vody-12v--230vac/) + 2× [plovákového senzoru](https://www.laskakit.cz/arduino-plovakovy-senzor-vodni-hladiny/) + libovolný [elektromagnetický ventil NC, 12V](https://www.elventil.cz/elektromagneticky-ventil-0-10bar-g3/8-12v-nc-f.s.a.)
 - CO2 senzor? Má smysl, když rekuperace jede vlastně nonstop?
 - dle predikce výroby FVE nahřívat bojler, baterie, EV
-- hlásiče požáru (počítám, že musí být už dneska běžně) - [AQARA Smoke Detector (SD-S01D)](https://oleje-pema.cz/zbozi/aqara-smoke-detector-sd-s01d-zigbee-3-0-kourovy-senzor_773495?srsltid=AfmBOorhxFq5qiRyybxDnX2qB8aJBxmoy74xMB4spCe94HRBJHkdtUwz) jde napojit do HA/Zigbee, 10 let baterie
+- hlásiče požáru (počítám, že musí být už dneska běžně) - [AQARA Smoke Detector (SD-S01D)](https://oleje-pema.cz/zbozi/aqara-smoke-detector-sd-s01d-zigbee-3-0-kourovy-senzor_773495?srsltid=AfmBOorhxFq5qiRyybxDnX2qB8aJBxmoy74xMB4spCe94HRBJHkdtUwz) jde napojit do HA/Zigbee, 10 let baterie, nemusí mít nějaké certifikáty/homologace od hasičů apod?
 - Spot umí řídit i pro Solax a další střídače např. [Proteus od DeltaGreen](https://www.deltagreen.cz/proteus).
+- Vytěžovač FVE [WATTrouter MX](https://solarcontrols.cz/cz/wattrouter_mx.html) + spínací relátka/pwm. Případně udělat přes Loxone / HA / ESP32 (ale asi zbytečně moc práce co se nezaplatí)
 
 ## Hezké
 
-- osvětlení se k večeru mění intenzita (ikea žárovky, Home Assistant nebo ikea režimy) - není nutné mít relátka
+- osvětlení se k večeru mění intenzita (ikea žárovky, Home Assistant nebo ikea režimy) - není nutné mít relátka ani stmívače
 - osvětlení kolem domu se zapne se setměním a vypne např. v 11
 - vánoční osvětlení se zapne v prosinci a skoncí koncem ledna? (To už jsou fakt kraviny na Home assistanta / loxone)
 - [meteostanice](https://homeassistant-cz.cz/viewtopic.php?t=1349&start=50) Sencor SWS12500 / SWS 16600 WiFi SH

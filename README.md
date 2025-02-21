@@ -31,7 +31,8 @@
 
 ### Dokumentace pro stavební povolení (ohlášení) stavby (DSP)
 
-- [Půdorys](./projekt/dsp/D1_03_1NP_NAVRH_250205.pdf)
+- [Půdorys](./projekt/dsp/D1_03_1NP_NAVRH_250218.pdf)
+- [Pohledy](./projekt/dsp/D1_10_POHLEDY_NAVRH_250218.pdf)
 - [Skladby](./projekt/dsp/DSP_RD_Smrci_D1.1.3_01_skladby_konstrukci.docx)
 
 ---
