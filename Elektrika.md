@@ -118,11 +118,11 @@ classDiagram
     Terasa - osvětlení (zálohováno)
     Terasa - zásuvky (zálohováno)
     
-    Půda - osvětlení (zálohováno)
-    Půda - zásuvky (zálohováno)
+    Půda - osvětlení - nezálohováno
+    Půda - zásuvky - nezálohováno
     
-    Exteriér - vánoční světýlka s časovačem v HR (nezálohováno) 
-    Exteriér - osvětlení kolem domu (zálohováno)
+    Exteriér - vánoční světýlka s časovačem v HR - nezálohováno 
+    Exteriér - osvětlení kolem domu - nezálohováno
   }
   
   class ZemnicíPásek["Zemnící pásek"]
