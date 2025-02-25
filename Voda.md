@@ -5,6 +5,10 @@ Odpad je sveden do lokální ČOV na pozemku a dále přepadem odvedeno přes ob
 
 Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 m3 +-?) s přepadem do vsaku a nouzovým přepadem do toku.
 
+## Rozvody návrh [(Figma)](https://www.figma.com/design/HXPyJgDuI7QUvlEugycx2D/RD-Smr%C4%8D%C3%AD?node-id=7-4&t=4kytI06Ece1r3PdN-1)
+
+[![](./tzb/voda-odpad.webp)](./tzb/voda-odpad.webp)
+
 ## Požadavky voda:
 - Vodovod zaveden do TM
   - ideálně do vodoměrné šachty udělat elektronické odpojování při úniku vody? Nebude to ale s celou vodomědnou šachtou náhodou pod vodou? :D
