@@ -16,7 +16,7 @@ Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 
 - Z TM je rozvod studené vody do:
   - koupeny malé (umyvadlo, sprchový kout, bidetová sprška)
   - koupelny velké (umyvadla, vana, pračka)
-  - kuchyně (myčka, dřez)
+  - kuchyně (dřez, ~~myčka~~ (bude napojena pouze na teplou)
   - na terasu (doplnění vody do akumulační nádrže pro WC v případě dlouhého sucha)
 - Z TM je rozvod teplé vody z Bojleru do:
   - koupelny malé (umyvadlo, sprchový kout)
