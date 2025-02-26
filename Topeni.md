@@ -84,12 +84,14 @@ Aktivní rekuperace (používá tepelné čerpadlo), takže vlastně už ani nen
 
 #### Jednotka
 
-Rekuperační jednotka od [Atrea Ra5](https://atrea.eu/cs/vyrobky/duplex-r5/) zvolena jako asi nejlepší možná volba s přihlédnutím na:
+Rekuperační jednotka od ~~[Atrea Ra5](https://atrea.eu/cs/vyrobky/duplex-r5/) zvolena jako asi nejlepší~~ [Atrea Duplex 360 Pro-V](https://atrea.eu/cs/vyrobky/duplex-pro-pro-v/) možná volba s přihlédnutím na:
 
 - pořizovací cenu
 - pravidelné náklady (filtry)
 - možnost sehnat někoho na servis / údržbu
 - poměr cena/výkon/hlučnost
+
+Bohužel odhad ceny pro Ra5 se pohybuje včetně rozvodů a práce nad 350 tisíc Kč. Což je dvojnásobek plánované maximální částky.
 
 #### Rozvody
 
