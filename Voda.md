@@ -27,6 +27,7 @@ Na pozemku je sbírána dešťová voda do podzemní akumulační nádrže (4-6 
   - koupelny malé (WC)
   - koupelny velké (WC)
   - na terasu (zálivka / mytí auta)? Nebude lepší natáhnout rovnou z akumulační nádrže?
+  - **ke skleníku** (není zakreslen v návrhu) a případně i před barák (venkem od sklepa)
 
 ## Požadavky odpad:
 - odpad má odvětrání na střechu (společný se spojením v půdním prostoru? - co nejméně prostupek střechou)
