@@ -39,6 +39,8 @@
 
 ## Zapojení rozvodů, návrh
 
+- rozdíly mezi [obloukovou ochranou, chráničem, jističem](https://www.ielektra.cz/rsc4847441-jak-se-lisi-jistic-proudovy-chranic-a-obloukova-ochrana).
+
 ```mermaid
 classDiagram
   note "Schéma zapojení elektrických rozvodů"
@@ -55,6 +57,10 @@ classDiagram
   
   class HlavníRozvaděč["Hlavní rozvaděč"] {
     Hlavní 3f jistič
+    
+    Obloukový chráníč! AFDD
+    Hlavní proudový chráníc 300mA (je nutný pro dřevostavbu)
+    
     Podlahové topení hlavní jistič
     
     Sklep - ČOV dmychadlo (zálohované)
@@ -173,6 +179,8 @@ classDiagram
   }
 
 ```
+
+![](./imgs/eaton-tabulka-ochran.jpg)
 
 ## FVE
 
