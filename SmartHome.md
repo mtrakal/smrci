@@ -53,3 +53,6 @@ Postavené na Home Assistant + Loxone? Asi, nic lepšího jsem nenašel.
   - [Dingtian relé deska s DI](https://www.dingtian-tech.com/en_us/index.html) - až 32 vstupů a relé výstupů, má podporu pro HA, Loxone, ... [na aliexpressu](https://dtwonder.aliexpress.com/store/1228401)
 - Loxone - drahý jak prase, ale obecně funkční, uzavřený systém, velká komunita na [Vodnici.net](https://www.vodnici.net/community/main-category/)
 - Siemens LOGO Home (výrazně levnější varianta Loxonu - původně z průmyslu, 24V systém, PLCčka)
+- Pro světla DALI sběrnice?
+- [Logic machine](https://openrb.com/logicmachine5/) a [diskuze odtud](https://www.vodnici.net/community/vse-o-stavbe-domu/elektro-rozvadec/paged/84/)
+- [Teco Foxtrot](https://www.tecomat.cz/products/cat/cz/plc-tecomat-foxtrot/foxtrot-2-zakladni-moduly-a-prislusenstvi-100/)

@@ -271,7 +271,12 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
 - [SmartHome](./SmartHome.md)
 - [Automatický přepínač FVE / síť](https://youtu.be/9nkCFEfZQQY?si=8TEsvNPnJWuOEkck&t=940) ale říká, že mu to trvá 50ms (výpadek routerů apod)
 
+## Cizí zapojení
+
+- [Richard dřevostavba](https://www.vodnici.net/community/vse-o-stavbe-domu/elektro-rozvadec/paged/86/#post-28732)
+
 ## Software
 
 - [SchrackDesign](https://www.schrack.cz/schrack-digital/schrack-design) - návrhy elektrorozvaděčů
 - [SchrackDesign katalogy produktů](https://www.schrack.cz/eshop/katalogy/katalogy.html?catId=5267282)
+- [Návrh rozvaděče online](https://navrh-rozvadece.cz/)
