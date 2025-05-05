@@ -267,7 +267,7 @@ Zimu je potřeba hodně dotovat ze sítě, hlavně kvůli topení. Běžný chod
   - Silnoproud [cubico-ip40-1800x600x400mm](https://www.schrack.cz/eshop/skrine-pro-rozvadece-a-rozvodnice/skrine-pro-rozvadece-cubico-ip40/skrine-pro-rozvadece-cubico-ip40/skrin-cubico-ip40-1800x600x400mm-1k-ec186040.html) - info z [Vodnici.net](https://www.vodnici.net/community/loxone-a-arduino/jak-zacit-v-novostavbe/#post-40512) jen mi bude stačit tak poloviční než tam má
   - Síťový rozvaděč/rack [Triton 19" 18U/500mm](https://www.bscom.cz/triton-19-rozvadec-jednodilny-18u-500mm-odnimatelne-bocni-kryty-rua-18-as5-cax-a1_d352200/) - 600š×500h×900v
 - Relé / časovače
-  - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo)
+  - [časovače wifi relé Tuya](https://allegro.cz/nabidka/wifi-rele-16a-s-merenim-proudu-tuya-smart-14206911149) na venkovní světla (má Maťo) - ale použít Zigbee, ty jdou i bez Tuya app!
 - [SmartHome](./SmartHome.md)
 - [Automatický přepínač FVE / síť](https://youtu.be/9nkCFEfZQQY?si=8TEsvNPnJWuOEkck&t=940) ale říká, že mu to trvá 50ms (výpadek routerů apod)
 
