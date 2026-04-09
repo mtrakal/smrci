@@ -5,11 +5,8 @@
 gantt
     title Hrubý harmonogram
     dateFormat YYYY-MM-DD
-    section Příprava pozemku
-        Geodetické zaměření: done, des1, 2025-04-01, 14d
-        Vyčištění pozemku: des2, after des1, 14d
     section Základová deska
-        Výkopové práce: des3, after des2, 14d
+        Výkopové práce: des3, 2026-04-12, 14d
         Betonáž základové desky: des4, after des3, 14d
     section Hrubá stavba
         Montáž dřevěné konstrukce: des5, after des4, 28d
@@ -38,20 +35,20 @@ gantt
     section Stavební povolení
         Arch. studie: done, as, 2024-11-01, 60d
         Koupě pozemku: done, kp, 2024-11-01, 100d
-        Projekt pro SP (DSP): pdsp, after as, 90d
-        Stavební povolení: dsp, after pdsp, 60d
+        Projekt pro SP (DSP): done, pdsp, 2025-01-01, 90d
+        Stavební povolení: done, dsp, 2025-09-01, 60d
 
     section Prováděcí studie
-        Projekt prováděcí studie: dps, after pdsp, 90d
+        Projekt prováděcí studie: dps, 2025-09-01, 2026-05-31
 
     section Příprava pozemku
-        Elektrika: pp-el, after dsp, 30d
-        ČOV: pp-cov, after dsp, 30d
-        Vodovod: pp-voda, after dsp, 30d
-        Odpady: pp-odpad, after dsp, 30d
+        ČOV a akumulační nádrž: done, pp-cov, 2025-10-01, 180d
+        Elektrika: pp-el, 2026-04-01, 30d
+        Vodovod: pp-voda, 2026-04-01, 30d
+        Odpady: pp-odpad, 2026-04-01, 30d
 
     section Zemní práce
-        Výkop pasů: zp-pasy, after pp-el pp-cov pp-voda pp-odpad, 1w
+        Výkop pasů: zp-pasy, 2026-04-12, 14d
         Základová deska + strop sklepu: zp-deska, after zp-pasy, 30d
 
     section Konstrukce
@@ -93,25 +90,29 @@ gantt
 
 ---
 
-- Příprava pozemku (Duben 2025)
-    - Týden 1-2: Vyčištění pozemku, odstranění vegetace a starých staveb
-    - Týden 3-4: Geodetické zaměření a příprava stavebního místa
-- Základová deska (Květen 2025)
-    - Týden 5-6: Výkopové práce a příprava základů
-    - Týden 7-8: Betonáž základové desky
-- Hrubá stavba (Červen - Říjen 2025)
-    - Týden 9-12: Montáž dřevěné konstrukce (stěny, stropy)
-    - Týden 13-16: Instalace střechy a krytiny
-    - Týden 17-20: Instalace oken a dveří
-    - Týden 21-24: Venkovní fasády
-- Instalace technologií (Září - Listopad 2025)
-    - Týden 21-24: Elektroinstalace a vodoinstalace
-    - Týden 25-28: Instalace topení a rekuperace
-    - Týden 29-32: Vnitřní omítky, podhledy
-- Dokončovací práce (Prosinec 2025 - Březen 2026)
-    - Týden 33-36: Podlahy a obklady
-    - Týden 37-40: Malování a finální úpravy interiéru
-    - Týden 41-44: Instalace kuchyně a koupelny
-    - Týden 45-48: Úpravy okolí domu (stání, chodník, zarovnání terénu)
-- Kolaudace a předání (Duben 2026)
+- Příprava povolení a sítí (Podzim 2025 - Březen 2026) [hotovo]
+    - Září-listopad 2025: Stavební povolení
+    - Říjen 2025 - březen 2026: Osazení ČOV a akumulační nádrže
+- Zemní práce a základy (Duben - Květen 2026)
+    - Týden 1-2 (od 12. 4. 2026): Výkop základových pasů
+    - Týden 3-6: Základová deska + strop sklepu
+- Hrubá konstrukce (Květen - Září 2026)
+    - Týden 7-8: Obvodové stěny
+    - Týden 9: Strop
+    - Týden 10-12: Krov
+    - Týden 13-16: Střecha
+    - Týden 17-18: Vnější izolace stěn
+    - Týden 19: Okna
+    - Týden 20-21: Fasáda
+- Rozvody (Srpen - Říjen 2026)
+    - Týden 17-19: Voda
+    - Týden 20-21: Vzduchotechnika
+    - Týden 22-25: Elektro rozvody
+- Dokončovací práce (Říjen 2026 - Únor 2027)
+    - Týden 26-31: Vnitřní omítky, podhledy
+    - Týden 32-37: Podlahy a obklady
+    - Týden 38-41: Malování a finální úpravy interiéru
+    - Týden 42-45: Instalace kuchyně a koupelny
+    - Týden 46-48: Úpravy okolí domu (stání, chodník, zarovnání terénu)
+- Kolaudace a předání (Březen - Duben 2027)
     - Týden 49-52: Kolaudace a předání domu
